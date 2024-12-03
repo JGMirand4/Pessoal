@@ -1,0 +1,5 @@
+.DS_store
+/diarios_pernambuco/
+/atos_separados/
+.env
+/venv/

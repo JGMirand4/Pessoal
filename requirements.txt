@@ -1,0 +1,9 @@
+fastapi==0.115.5
+fitz==0.0.1.dev2
+pyMUPDF==1.24.14
+Pillow==11.0.0
+pyodbc==5.2.0
+pytesseract==0.3.13
+python_magic==0.4.27
+Requests==2.32.3
+selenium==4.27.1
