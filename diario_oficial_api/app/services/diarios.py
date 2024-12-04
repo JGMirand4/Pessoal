@@ -15,7 +15,7 @@ def processar_diario_oficial():
     if not arquivos_baixados:
         raise Exception("Nenhum arquivo PDF foi baixado.")
 
-    output_folder = "atos_separados"
+    output_folder = "uploads"
     for pdf_path in arquivos_baixados:
         print(f"Processando arquivo: {pdf_path}")
         extract_and_save_acts_with_integration(pdf_path, output_folder, conexao)

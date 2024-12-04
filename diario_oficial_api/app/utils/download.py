@@ -32,9 +32,9 @@ def baixar_diario_oficial():
         driver.get(url_site)
         wait = WebDriverWait(driver, 20)
         links = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a[href*='.pdf']")))
-        urls_pdf = [link.get_attribute("href") for link in links]
+        urls_pdf = [link.get_attribute("href") for link in links if "Legislativo" in link.get_attribute("href")]
 
-        pasta_destino = "diarios_pernambuco"
+        pasta_destino = "uploads/diarios_pernambuco"
         os.makedirs(pasta_destino, exist_ok=True)
         for url in urls_pdf:
             arquivos_baixados.append(baixar_arquivo(url, pasta_destino))

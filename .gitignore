@@ -3,3 +3,4 @@
 /atos_separados/
 .env
 /venv/
+/__pycache__/

@@ -1,13 +1,28 @@
 from fastapi import APIRouter, HTTPException
 from app.services.diarios import processar_diario_oficial, consultar_ato
+from app.services.banco import consultar_atos_processados
+
 
 router = APIRouter()
 
-@router.post("/baixar")
+@router.post("/processar")
 def baixar_diario():
+    """
+    Processa o diário oficial e retorna os atos processados na data atual.
+    """
     try:
+        # Processar o diário oficial
         resultado = processar_diario_oficial()
-        return {"message": "Processamento concluído.", "resultado": resultado}
+        
+        # Consultar os atos processados na data atual
+        atos_processados = consultar_atos_processados()
+        
+        # Retornar resultado do processamento e os atos
+        return {
+            "message": "Processamento concluído.",
+            "resultado": resultado,
+            "atos_processados": atos_processados,
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

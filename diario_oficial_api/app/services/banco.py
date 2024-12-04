@@ -56,8 +56,48 @@ def inserir_dados_no_banco(conexao, dados_publicacao):
             ))
         
         conexao.commit()
-        print(f"{len(dados_publicacao)} registros inseridos com sucesso!")
+        print(f"{len(dados_publicacao) + 1} registros inseridos com sucesso!")
     except pyodbc.Error as e:
         print(f"Erro ao inserir dados na tabela: {e}")
     finally:
         cursor.close()
+
+from datetime import datetime
+from app.services.banco import conectar_ao_banco
+
+def consultar_atos_processados():
+    """
+    Consulta os atos que foram inseridos recentemente no banco de dados.
+    Baseia-se na data e hora atuais para identificar os atos.
+    :return: Lista de dicionários contendo os detalhes dos atos recém-inseridos.
+    """
+    conexao = conectar_ao_banco()
+    if not conexao:
+        raise Exception("Falha ao conectar ao banco de dados.")
+    
+    agora = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    try:
+        cursor = conexao.cursor()
+        query = """
+        SELECT DIA_DIARIO, PAGINA, ATO_TIPO, ATO_NUMERO, ATO_ANO, NOME, DATA_EFEITO, TEXTO
+        FROM dbo.PUBLICACAO
+        WHERE DIA_DIARIO >= DATEADD(MINUTE, -2, ?)
+        ORDER BY DIA_DIARIO DESC
+        """
+        cursor.execute(query, (agora,))
+        resultados = cursor.fetchall()
+        
+        if not resultados:
+            print("Nenhum ato recém-inserido foi encontrado.")
+        else:
+            print(f"{len(resultados)} atos recém-inseridos encontrados.")
+        
+        if resultados:
+            colunas = [desc[0] for desc in cursor.description]
+            atos = [dict(zip(colunas, resultado)) for resultado in resultados]
+            return atos
+        return []
+    except Exception as e:
+        raise Exception(f"Erro ao consultar atos recém-inseridos: {e}")
+    finally:
+        conexao.close()
