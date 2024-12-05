@@ -1,6 +1,7 @@
 .DS_store
 /diarios_pernambuco/
 /atos_separados/
+/uploads/
 /diario_oficial_api/uploads/
 .env
 /venv/
