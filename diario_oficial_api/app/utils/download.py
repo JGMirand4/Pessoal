@@ -25,6 +25,9 @@ def baixar_diario(data=None, diretorio_base='uploads/diarios_pernambuco'):
     """
     if data is None:
         data = datetime.now().strftime('%d/%m/%Y')
+
+
+    print(f"Processando edição do Diário Oficial de {data}...")
     
     base_url = 'https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos'
     params = {"dataPublicacao": data}

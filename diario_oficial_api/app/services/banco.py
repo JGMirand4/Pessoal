@@ -102,17 +102,22 @@ def consultar_entidades_recem_processados():
     finally:
         conexao.close()
 
-def consultar_entidades_do_dia():
+def consultar_entidades_data(data_consulta=None):
     """
-    Consulta todos os atos, portarias e ofícios do dia atual.
-    Baseia-se na data atual para identificar as entidades.
-    :return: Lista de dicionários contendo os detalhes das entidades do dia.
+    Consulta os atos presentes no banco de dados para uma data específica.
+    A data deve ser fornecida no formato dd/mm/aaaa.
+    :param data_consulta: Data no formato dd/mm/aaaa.
+    :return: Lista de dicionários contendo os detalhes dos atos da data especificada.
     """
+    
+    if data_consulta is None:
+        data_formatada = datetime.now().strftime("%Y-%m-%d")
+    else:
+        data_formatada = datetime.strptime(data_consulta, "%d/%m/%Y").strftime("%Y-%m-%d")
+    
     conexao = conectar_ao_banco()
     if not conexao:
-        raise Exception("Falha ao conectar ao banco de dados.")
-    
-    hoje = datetime.now().strftime("%Y-%m-%d")
+        raise Exception("Falha ao conectar ao banco de dados.")    
     try:
         cursor = conexao.cursor()
         query = """
@@ -121,20 +126,20 @@ def consultar_entidades_do_dia():
         WHERE CONVERT(DATE, DIA_DIARIO) = ?
         ORDER BY DIA_DIARIO DESC
         """
-        cursor.execute(query, (hoje,))
+        cursor.execute(query, (data_formatada,))
         resultados = cursor.fetchall()
         
         if not resultados:
-            print("Nenhuma entidade encontrada para o dia atual.")
+            print("Nenhuma ocorrência encontrada para a data fornecida.")
         else:
-            print(f"{len(resultados)} entidades encontradas para o dia atual.")
+            print(f"{len(resultados)} entidades encontradas para a data {data_consulta}.")
         
         if resultados:
             colunas = [desc[0] for desc in cursor.description]
-            entidades = [dict(zip(colunas, resultado)) for resultado in resultados]
-            return entidades
+            atos = [dict(zip(colunas, resultado)) for resultado in resultados]
+            return atos
         return []
     except Exception as e:
-        raise Exception(f"Erro ao consultar entidades do dia: {e}")
+        raise Exception(f"Erro ao consultar atos para a data {data_consulta}: {e}")
     finally:
         conexao.close()

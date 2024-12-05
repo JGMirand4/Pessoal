@@ -4,13 +4,13 @@ import fitz  # PyMuPDF
 from datetime import datetime
 from app.services.banco import inserir_dados_no_banco
 
-def extrair_atos(page, page_num, atos_separados_folder):
+def extrair_atos(page, page_num, atos_separados_folder, data=None):
     """
     Extrai atos administrativos de uma página e os salva como PDFs.
     """
     dados_atos = []
     text = page.get_text("text")
-    matches_atos = re.finditer(r'(ATO Nº\.? (\d+)/(\d+).*?Presidente)', text, re.DOTALL)
+    matches_atos = re.finditer(r'(ATO Nº (\d+)/(\d+).*?Presidente)', text, re.DOTALL)
     
     for match in matches_atos:
         ato_text = match.group(0)
@@ -39,10 +39,12 @@ def extrair_atos(page, page_num, atos_separados_folder):
         new_pdf.save(pdf_path_novo, garbage=4, deflate=False)
         new_pdf.close()
         print(f"PDF salvo: {pdf_path_novo}")
-
+        print(data)
+        data_obj = datetime.strptime(data, "%d/%m/%Y")
+        
         # Coletar dados do ato
         dados_atos.append({
-            "DIA_DIARIO": datetime.now(),
+            "DIA_DIARIO": data_obj,
             "PAGINA": f"Pág. {page_num+1}",
             "ATO_TIPO": "Ato",
             "ATO_NUMERO": ato_numero,
@@ -54,7 +56,7 @@ def extrair_atos(page, page_num, atos_separados_folder):
     return dados_atos
 
 
-def extrair_portarias(page, page_num, portarias_separadas_folder):
+def extrair_portarias(page, page_num, portarias_separadas_folder, data=None):
     """
     Extrai portarias de uma página e as salva como PDFs.
     """
@@ -89,10 +91,12 @@ def extrair_portarias(page, page_num, portarias_separadas_folder):
         new_pdf.save(pdf_path_novo, garbage=4, deflate=False)
         new_pdf.close()
         print(f"PDF salvo: {pdf_path_novo}")
-
+        
+        data_obj = datetime.strptime(data, "%d/%m/%Y")
+    
         # Coletar dados da portaria
         dados_portarias.append({
-            "DIA_DIARIO": datetime.now(),
+            "DIA_DIARIO": data_obj,
             "PAGINA": f"Pág. {page_num+1}",
             "ATO_TIPO": "Portaria",
             "ATO_NUMERO": portaria_numero,
@@ -104,7 +108,7 @@ def extrair_portarias(page, page_num, portarias_separadas_folder):
     return dados_portarias
 
 
-def extrair_oficios(page, page_num, oficios_separados_folder):
+def extrair_oficios(page, page_num, oficios_separados_folder, data=None):
     """
     Extrai ofícios de uma página e os salva como PDFs, incluindo duas linhas após 'Atenciosamente'.
     """
@@ -142,10 +146,13 @@ def extrair_oficios(page, page_num, oficios_separados_folder):
         new_pdf.save(pdf_path_novo, garbage=4, deflate=False)
         new_pdf.close()
         print(f"PDF salvo: {pdf_path_novo}")
+        print(type(data))
+
+        data_obj = datetime.strptime(data, "%d/%m/%Y")
 
         # Coletar dados do ofício
         dados_oficios.append({
-            "DIA_DIARIO": datetime.now(),
+            "DIA_DIARIO": data_obj,
             "PAGINA": f"Pág. {page_num+1}",
             "ATO_TIPO": "Ofício",
             "ATO_NUMERO": numero if numero else "Indeterminado",
@@ -157,7 +164,7 @@ def extrair_oficios(page, page_num, oficios_separados_folder):
     return dados_oficios
 
 
-def extract_and_save_acts_with_integration(pdf_path, output_folder, conexao):
+def extract_and_save_acts_with_integration(pdf_path, output_folder, conexao, data=None):
     """
     Processa um PDF e extrai atos, portarias e ofícios, incluindo o tipo de diário no campo 'PAGINA'.
     """
@@ -189,24 +196,25 @@ def extract_and_save_acts_with_integration(pdf_path, output_folder, conexao):
 
     doc = fitz.open(pdf_path)
     dados_para_inserir = []
-
+    print(data)
     for page_num in range(len(doc)):
         page = doc[page_num]
+    
 
         # Extrair atos
-        atos = extrair_atos(page, page_num, atos_separados_folder)
+        atos = extrair_atos(page, page_num, atos_separados_folder, data)
         for ato in atos:
             ato["PAGINA"] += f"/{tipo_diario}"  
         dados_para_inserir.extend(atos)
 
         # Extrair portarias
-        portarias = extrair_portarias(page, page_num, portarias_separadas_folder)
+        portarias = extrair_portarias(page, page_num, portarias_separadas_folder, data)
         for portaria in portarias:
             portaria["PAGINA"] += f"/{tipo_diario}"  
         dados_para_inserir.extend(portarias)
 
         # Extrair ofícios
-        oficios = extrair_oficios(page, page_num, oficios_separados_folder)
+        oficios = extrair_oficios(page, page_num, oficios_separados_folder, data)
         for oficio in oficios:
             oficio["PAGINA"] += f"/{tipo_diario}" 
         dados_para_inserir.extend(oficios)
