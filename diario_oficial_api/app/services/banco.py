@@ -101,3 +101,40 @@ def consultar_entidades_recem_processados():
         raise Exception(f"Erro ao consultar atos recém-inseridos: {e}")
     finally:
         conexao.close()
+
+def consultar_entidades_do_dia():
+    """
+    Consulta todos os atos, portarias e ofícios do dia atual.
+    Baseia-se na data atual para identificar as entidades.
+    :return: Lista de dicionários contendo os detalhes das entidades do dia.
+    """
+    conexao = conectar_ao_banco()
+    if not conexao:
+        raise Exception("Falha ao conectar ao banco de dados.")
+    
+    hoje = datetime.now().strftime("%Y-%m-%d")
+    try:
+        cursor = conexao.cursor()
+        query = """
+        SELECT DIA_DIARIO, PAGINA, ATO_TIPO, ATO_NUMERO, ATO_ANO, NOME, DATA_EFEITO, TEXTO
+        FROM dbo.PUBLICACAO
+        WHERE CONVERT(DATE, DIA_DIARIO) = ?
+        ORDER BY DIA_DIARIO DESC
+        """
+        cursor.execute(query, (hoje,))
+        resultados = cursor.fetchall()
+        
+        if not resultados:
+            print("Nenhuma entidade encontrada para o dia atual.")
+        else:
+            print(f"{len(resultados)} entidades encontradas para o dia atual.")
+        
+        if resultados:
+            colunas = [desc[0] for desc in cursor.description]
+            entidades = [dict(zip(colunas, resultado)) for resultado in resultados]
+            return entidades
+        return []
+    except Exception as e:
+        raise Exception(f"Erro ao consultar entidades do dia: {e}")
+    finally:
+        conexao.close()

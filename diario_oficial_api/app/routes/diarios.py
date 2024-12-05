@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from app.services.diarios import processar_diario_oficial, consultar_ato
-from app.services.banco import consultar_entidades_recem_processados
+from app.services.diarios import processar_diario_oficial
+from app.services.banco import consultar_entidades_recem_processados, consultar_entidades_do_dia
 
 
 router = APIRouter()
@@ -16,29 +16,29 @@ def baixar_diario():
         resultado = processar_diario_oficial()
         
         # Consultar os atos processados na data atual
-        atos_processados = consultar_entidades_recem_processados()
+        entidades_processados = consultar_entidades_recem_processados()
         
         # Retornar resultado do processamento e os atos
         return {
             "message": "Processamento concluído.",
             "resultado": resultado,
-            "atos_processados": atos_processados,
+            "entidades_processados": entidades_processados,
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
 
 
-@router.get("/consultar/{numero}/{ano}")
-def consultar(numero: str, ano: str):
+@router.get("/consultar")
+def consultar():
     """
     Consulta um ato pelo número e ano no banco de dados.
     """
     try:
-        ato = consultar_ato(numero, ano)
-        if ato:
-            return {"ato": ato}
+        entidades = consultar_entidades_do_dia()
+        if entidades:
+            return {"entidades do dia": entidades}
         else:
-            raise HTTPException(status_code=404, detail="Ato não encontrado.")
+            raise HTTPException(status_code=404, detail="entidades não encontradas.")
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
