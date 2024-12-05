@@ -1,4 +1,5 @@
 import pyodbc
+from datetime import datetime
 
 def conectar_ao_banco():
     try:
@@ -13,6 +14,7 @@ def conectar_ao_banco():
         return conexao
     except pyodbc.Error as e:
         return None
+
 
 def testar_conexao():
     conexao = conectar_ao_banco()
@@ -44,28 +46,26 @@ def inserir_dados_no_banco(conexao, dados_publicacao):
         
         for dados in dados_publicacao:
             cursor.execute(query, (
-                dados.get("DIA_DIARIO"),  # Data do diário
-                dados.get("PAGINA"),     # Página do ato
-                dados.get("ATO_TIPO"),   # Tipo do ato
-                dados.get("ATO_NUMERO"), # Número do ato
-                dados.get("ATO_ANO"),    # Ano do ato
-                dados.get("NOME"),       # Nome do ato
-                dados.get("DATA_EFEITO"),# Data de efeito do ato (se aplicável)
-                dados.get("TEXTO"),      # Texto do ato
-                dados.get("IMAGEM")      # Imagem em formato binário (se aplicável)
+                dados.get("DIA_DIARIO"),  
+                dados.get("PAGINA"),     
+                dados.get("ATO_TIPO"),   
+                dados.get("ATO_NUMERO"), 
+                dados.get("ATO_ANO"),    
+                dados.get("NOME"),       
+                dados.get("DATA_EFEITO"),
+                dados.get("TEXTO"),    
+                dados.get("IMAGEM")    
             ))
         
         conexao.commit()
-        print(f"{len(dados_publicacao) + 1} registros inseridos com sucesso!")
+        print(f"{len(dados_publicacao)} registros inseridos com sucesso!")
     except pyodbc.Error as e:
         print(f"Erro ao inserir dados na tabela: {e}")
     finally:
         cursor.close()
 
-from datetime import datetime
-from app.services.banco import conectar_ao_banco
 
-def consultar_atos_processados():
+def consultar_entidades_recem_processados():
     """
     Consulta os atos que foram inseridos recentemente no banco de dados.
     Baseia-se na data e hora atuais para identificar os atos.
@@ -90,7 +90,7 @@ def consultar_atos_processados():
         if not resultados:
             print("Nenhum ato recém-inserido foi encontrado.")
         else:
-            print(f"{len(resultados)} atos recém-inseridos encontrados.")
+            print(f"{len(resultados)} entidades recém-inseridos encontrados.")
         
         if resultados:
             colunas = [desc[0] for desc in cursor.description]

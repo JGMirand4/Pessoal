@@ -1,21 +1,21 @@
+# config.py
 import os
+from dotenv import load_dotenv
 
-# Configurações do banco de dados
+load_dotenv()
+
 DATABASE_CONFIG = {
-    "DRIVER": "{ODBC Driver 17 for SQL Server}",
-    "SERVER": "transparencia.psalsis.com.br,1433",
-    "DATABASE": "FUNCIONAL",
-    "USERNAME": "JOAO GUILHERME",
-    "PASSWORD": "joao123456",
-    "TrustServerCertificate": "yes",
+    "DRIVER": os.getenv("DB_DRIVER"),
+    "SERVER": os.getenv("DB_SERVER"),
+    "DATABASE": os.getenv("DB_DATABASE"),
+    "USERNAME": os.getenv("DB_USERNAME"),
+    "PASSWORD": os.getenv("DB_PASSWORD"),
+    "TrustServerCertificate": os.getenv("DB_TRUST_CERT"),
 }
 
-# Caminho para o Tesseract OCR
-PYTESSERACT_CMD = '/opt/homebrew/bin/tesseract'
-
-# Caminho do ChromeDriver
-CHROMEDRIVER_PATH = "/opt/homebrew/bin/chromedriver"
+# Caminho para a requisição
+URL_REQUISITION = os.getenv("URL_REQUISITION")
 
 # Pastas para arquivos
-UPLOAD_FOLDER = "uploads/diario_pernambuco"
-OUTPUT_FOLDER = "uploads/atos_separados"
+UPLOAD_FOLDER = os.getenv("UPLOAD_FOLDER")
+OUTPUT_FOLDER = os.getenv("OUTPUT_FOLDER")
