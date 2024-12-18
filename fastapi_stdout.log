@@ -1321,3 +1321,21 @@ PDF salvo: uploads\oficios_separados\Oficio_56_2024.pdf
 4 registros inseridos com sucesso!
 4 entidades encontradas para a data 14/12/2024.
 INFO:     179.251.80.15:50337 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 14/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/1-PoderExecutivo/PoderExecutivo(20241214).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/6-PoderLegislativo/PoderLegislativo(20241214).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_14-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_14-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+14/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+14/12/2024
+PDF salvo: uploads\atos_separados\Ato_1879_24.pdf
+14/12/2024
+O PDF da portaria 564/2024 já existe. Pulando...
+O PDF da portaria 532/2024 já existe. Pulando...
+O PDF da portaria 533/2024 já existe. Pulando...
+O PDF do ofício 56/2024 já existe. Pulando...
+1 registros inseridos com sucesso!
+1 entidades encontradas para a data 14/12/2024.
+INFO:     179.251.80.15:50349 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 200 OK
