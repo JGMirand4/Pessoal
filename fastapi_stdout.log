@@ -1,0 +1,1323 @@
+INFO:     179.73.194.169:54148 - "GET /docs HTTP/1.1" 200 OK
+INFO:     179.73.194.169:54148 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     92.255.57.58:44146 - "GET /console/ HTTP/1.1" 404 Not Found
+INFO:     179.73.194.169:54164 - "GET /docs HTTP/1.1" 200 OK
+INFO:     179.73.194.169:54164 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     179.73.194.169:54164 - "GET /docs HTTP/1.1" 200 OK
+INFO:     179.73.194.169:54164 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     179.73.194.169:54213 - "GET /diarios/processar HTTP/1.1" 405 Method Not Allowed
+INFO:     92.255.57.58:55072 - "GET /_ignition/execute-solution HTTP/1.1" 404 Not Found
+15 entidades encontradas para a data 06/12/2024.
+INFO:     179.73.194.169:54236 - "GET /diarios/consultar?data_consulta=06/12/2024 HTTP/1.1" 200 OK
+15 entidades encontradas para a data 06/12/2024.
+INFO:     179.73.194.169:54240 - "GET /diarios/consultar?data_consulta=06/12/2024 HTTP/1.1" 200 OK
+Data de processamento padrão (hoje): 07/12/2024
+Processando edição do Diário Oficial de 07/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241207/1-PoderExecutivo/PoderExecutivo(20241207).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241207/6-PoderLegislativo/PoderLegislativo(20241207).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-12-2024\1-Poder_Executivo.pdf
+07/12/2024
+PDF salvo: uploads\oficios_separados\Oficio_0193_2019.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_143_2022.pdf
+<class 'str'>
+O PDF do ofício 143/2022 já existe. Pulando...
+PDF salvo: uploads\oficios_separados\Oficio_145_2024.pdf
+<class 'str'>
+O PDF do ofício 145/2024 já existe. Pulando...
+PDF salvo: uploads\atos_separados\Ato_24_2024.pdf
+07/12/2024
+4 registros inseridos com sucesso!
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-12-2024\6-Poder_Legislativo.pdf
+07/12/2024
+PDF salvo: uploads\atos_separados\Ato_1865_2024.pdf
+07/12/2024
+PDF salvo: uploads\atos_separados\Ato_1866_2024.pdf
+07/12/2024
+PDF salvo: uploads\atos_separados\Ato_1867_2024.pdf
+07/12/2024
+PDF salvo: uploads\portarias_separadas\Portaria_544_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_523_2024.pdf
+5 registros inseridos com sucesso!
+9 entidades encontradas para a data 07/12/2024.
+INFO:     179.73.194.169:54242 - "GET /diarios/processar HTTP/1.1" 200 OK
+15 entidades encontradas para a data 06/12/2024.
+INFO:     179.73.194.169:49566 - "GET /diarios/consultar?data_consulta=06/12/2024 HTTP/1.1" 200 OK
+INFO:     179.73.194.169:49566 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+9 entidades encontradas para a data 07/12/2024.
+INFO:     179.73.194.169:49565 - "GET /diarios/consultar?data_consulta=07/12/2024 HTTP/1.1" 200 OK
+INFO:     179.73.194.169:54261 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     179.73.194.169:54262 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     179.73.194.169:54263 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     179.73.194.169:54265 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     179.73.194.169:54266 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     179.73.194.169:54267 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.73.194.169:49584 - "GET /diarios/consultar?data_consulta=07/11/2024 HTTP/1.1" 200 OK
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+PDF salvo: uploads\atos_separados\Ato_018_2020.pdf
+07/11/2024
+PDF salvo: uploads\atos_separados\Ato_19_2024.pdf
+07/11/2024
+2 registros inseridos com sucesso!
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+PDF salvo: uploads\atos_separados\Ato_1775_24.pdf
+07/11/2024
+PDF salvo: uploads\atos_separados\Ato_1776_2024.pdf
+07/11/2024
+PDF salvo: uploads\atos_separados\Ato_1777_2024.pdf
+07/11/2024
+PDF salvo: uploads\atos_separados\Ato_1778_2024.pdf
+07/11/2024
+PDF salvo: uploads\atos_separados\Ato_1779_2024.pdf
+07/11/2024
+PDF salvo: uploads\oficios_separados\Oficio_73_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_749_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_10_2024.pdf
+<class 'str'>
+8 registros inseridos com sucesso!
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.73.194.169:49583 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+INFO:     92.255.57.58:60254 - "GET / HTTP/1.1" 200 OK
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.73.194.169:49595 - "GET /diarios/consultar?data_consulta=07/11/2024 HTTP/1.1" 200 OK
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.73.194.169:49607 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.73.194.169:49607 - "GET /diarios/consultar?data_consulta=07/11/2024 HTTP/1.1" 200 OK
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.73.194.169:49607 - "GET /diarios/consultar?data_consulta=07/11/2024 HTTP/1.1" 200 OK
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.73.194.169:49608 - "GET /diarios/consultar?data_consulta=06/11/2024 HTTP/1.1" 200 OK
+15 entidades encontradas para a data 06/12/2024.
+INFO:     179.73.194.169:49610 - "GET /diarios/consultar?data_consulta=06/12/2024 HTTP/1.1" 200 OK
+INFO:     92.255.57.58:45204 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:55236 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:60378 - "GET /geoserver HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:57630 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:59830 - "GET / HTTP/1.1" 200 OK
+INFO:     106.75.17.42:54666 - "GET / HTTP/1.1" 200 OK
+INFO:     106.75.137.66:35720 - "GET / HTTP/1.1" 200 OK
+INFO:     106.75.137.66:35772 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     152.32.140.206:19342 - "GET / HTTP/1.1" 200 OK
+INFO:     101.36.127.85:47286 - "GET / HTTP/1.1" 200 OK
+INFO:     101.36.127.85:47844 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     101.36.127.85:48302 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     101.36.127.85:48300 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:55432 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:55432 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:55432 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:55432 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.58:55480 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:55484 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     87.236.176.173:34355 - "GET / HTTP/1.1" 200 OK
+INFO:     4.151.37.156:42750 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.213.249:52205 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.10.174:60397 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.63:41154 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.63:41154 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.63:41154 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.63:41154 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.63:43218 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.63:43256 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     149.202.132.198:36209 - "GET / HTTP/1.1" 200 OK
+INFO:     137.74.239.154:39531 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     198.235.24.113:65280 - "GET / HTTP/1.1" 200 OK
+INFO:     18.236.228.109:56594 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.117:36282 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.117:36282 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.117:36282 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.117:36282 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.117:36336 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.117:36340 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     65.49.1.24:18293 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.34:46331 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.34:54489 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:44046 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:37724 - "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:48982 - "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:51254 - "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:38212 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:42152 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     49.232.233.27:50690 - "GET /stats HTTP/1.1" 404 Not Found
+INFO:     180.149.126.4:19533 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.18:55191 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.19:41575 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.156.19:23285 - "GET / HTTP/1.1" 200 OK
+INFO:     198.235.24.181:61278 - "GET / HTTP/1.1" 200 OK
+INFO:     188.166.87.67:47908 - "GET / HTTP/1.1" 200 OK
+INFO:     104.209.35.51:57918 - "GET / HTTP/1.1" 200 OK
+INFO:     107.170.21.148:60928 - "GET /ab2g HTTP/1.1" 404 Not Found
+INFO:     107.170.21.148:60940 - "GET /ab2h HTTP/1.1" 404 Not Found
+INFO:     107.170.21.148:32832 - "GET / HTTP/1.1" 200 OK
+10 entidades encontradas para a data 07/11/2024.
+INFO:     45.6.95.162:59902 - "GET /diarios/consultar?data_consulta=07/11/2024 HTTP/1.1" 200 OK
+INFO:     45.6.95.162:59902 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     45.6.95.162:59919 - "GET /diarios/consultar?data_consulta=03/11/2024 HTTP/1.1" 200 OK
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     45.6.95.162:59933 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+INFO:     71.6.232.23:37064 - "GET / HTTP/1.1" 200 OK
+23 entidades encontradas para a data 05/12/2024.
+INFO:     45.6.95.162:59974 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+10 entidades encontradas para a data 07/11/2024.
+INFO:     45.6.95.162:60105 - "GET /diarios/consultar?data_consulta=07/11/2024 HTTP/1.1" 200 OK
+10 entidades encontradas para a data 07/11/2024.
+INFO:     45.6.95.162:60109 - "GET /diarios/consultar?data_consulta=07/11/2024 HTTP/1.1" 200 OK
+10 entidades encontradas para a data 07/11/2024.
+INFO:     45.6.95.162:60211 - "GET /diarios/consultar?data_consulta=07/11/2024 HTTP/1.1" 200 OK
+INFO:     71.6.134.232:60248 - "GET / HTTP/1.1" 200 OK
+INFO:     71.6.134.232:43622 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+23 entidades encontradas para a data 05/12/2024.
+INFO:     45.6.95.162:61054 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     45.6.95.162:61055 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     45.6.95.162:61063 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+Data de processamento fornecida: 24/04/2024
+Processando edição do Diário Oficial de 24/04/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20240424/1-PoderExecutivo/PoderExecutivo(20240424).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20240424/6-PoderLegislativo/PoderLegislativo(20240424).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_24-04-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_24-04-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_24-04-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_24-04-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_24-04-2024\1-Poder_Executivo.pdf
+24/04/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_24-04-2024\6-Poder_Legislativo.pdf
+24/04/2024
+PDF salvo: uploads\atos_separados\Ato_1308_2024.pdf
+24/04/2024
+PDF salvo: uploads\atos_separados\Ato_1245_2024.pdf
+24/04/2024
+PDF salvo: uploads\oficios_separados\Oficio_182_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_183_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_05_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_119_2024.pdf
+<class 'str'>
+PDF salvo: uploads\portarias_separadas\Portaria_393_24.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_394_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_336_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_168_2024.pdf
+<class 'str'>
+PDF salvo: uploads\portarias_separadas\Portaria_337_2024.pdf
+11 registros inseridos com sucesso!
+11 entidades encontradas para a data 24/04/2024.
+INFO:     45.6.95.162:61066 - "GET /diarios/processar?data=2024-04-24 HTTP/1.1" 200 OK
+INFO:     8.222.234.203:38316 - "GET / HTTP/1.1" 200 OK
+INFO:     8.222.234.203:39032 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:46674 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:39224 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.73.194.169:62407 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+INFO:     179.73.194.169:62418 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.195:40240 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     162.142.125.195:40240 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     162.142.125.195:40240 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     162.142.125.195:40240 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.195:40246 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.195:40256 - "PRI %2A HTTP/2.0" 404 Not Found
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.73.194.169:62547 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+INFO:     167.99.133.223:46616 - "GET / HTTP/1.1" 200 OK
+INFO:     167.99.133.223:46732 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     198.235.24.185:59106 - "GET / HTTP/1.1" 200 OK
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.73.194.169:62980 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+INFO:     179.73.194.169:62980 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.73.194.169:63073 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+INFO:     143.110.182.33:46676 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     143.110.182.33:46700 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     143.110.182.33:45596 - "GET / HTTP/1.1" 200 OK
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.73.194.169:63675 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+INFO:     179.73.194.169:63675 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.73.194.169:63945 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+INFO:     179.73.194.169:63945 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.210.31.236:64168 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     167.94.145.106:56418 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.145.106:56418 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.145.106:56418 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.145.106:56418 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.106:39432 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.145.106:39446 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     64.62.197.113:27201 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.111:21133 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.118:37385 - "GET / HTTP/1.1" 200 OK
+INFO:     87.236.176.23:55479 - "GET / HTTP/1.1" 200 OK
+INFO:     51.159.103.13:51454 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:59702 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:40730 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     57.152.56.52:57928 - "GET / HTTP/1.1" 200 OK
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.34.60.66:62027 - "GET /diarios/consultar?data_consulta=07/11/2024 HTTP/1.1" 200 OK
+INFO:     179.34.60.66:49663 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     179.34.60.66:49664 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     5.188.118.216:2342 - "GET / HTTP/1.1" 200 OK
+INFO:     5.188.118.216:2342 - "GET /guacamole HTTP/1.1" 404 Not Found
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     131.108.86.137:57868 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+INFO:     131.108.86.137:57868 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.210.31.171:64972 - "GET / HTTP/1.1" 200 OK
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     178.32.72.223:59773 - "GET / HTTP/1.1" 200 OK
+INFO:     51.254.0.1:51009 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.156.129.48:43117 - "GET / HTTP/1.1" 200 OK
+INFO:     51.254.49.99:42675 - "GET / HTTP/1.1" 200 OK
+INFO:     216.218.206.78:64613 - "GET / HTTP/1.1" 200 OK
+INFO:     216.218.206.122:4321 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     216.218.206.122:35651 - "GET / HTTP/1.1" 200 OK
+INFO:     185.180.140.5:44833 - "GET / HTTP/1.1" 200 OK
+INFO:     185.247.137.105:34891 - "GET / HTTP/1.1" 200 OK
+INFO:     3.133.101.20:50612 - "GET / HTTP/1.1" 200 OK
+INFO:     3.144.27.18:32868 - "GET / HTTP/1.1" 200 OK
+23 entidades encontradas para a data 05/12/2024.
+INFO:     179.189.247.2:60673 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+INFO:     179.189.247.2:60673 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+23 entidades encontradas para a data 05/12/2024.
+INFO:     179.189.247.2:64741 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+INFO:     167.94.138.114:50272 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.114:50272 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.114:50272 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.114:50272 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.114:36448 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.114:50022 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     92.255.57.58:60138 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     103.7.11.3:54026 - "GET / HTTP/1.1" 200 OK
+INFO:     103.7.11.3:54036 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:37846 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     103.43.18.254:54780 - "GET / HTTP/1.1" 200 OK
+INFO:     103.43.18.254:55240 - "GET / HTTP/1.1" 200 OK
+INFO:     103.43.18.254:55714 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     103.43.18.254:56080 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     179.34.60.187:49421 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+23 entidades encontradas para a data 05/12/2024.
+INFO:     179.34.60.187:49446 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+Data de processamento fornecida: 07/11/2024
+Processando edição do Diário Oficial de 07/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/1-PoderExecutivo/PoderExecutivo(20241107).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241107/6-PoderLegislativo/PoderLegislativo(20241107).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_07-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_07-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\1-Poder_Executivo.pdf
+07/11/2024
+O PDF do ato 018/2020 já existe. Pulando...
+O PDF do ato 19/2024 já existe. Pulando...
+Processando arquivo: uploads/diarios_pernambuco\diarios_07-11-2024\6-Poder_Legislativo.pdf
+07/11/2024
+O PDF do ato 1775/24 já existe. Pulando...
+O PDF do ato 1776/2024 já existe. Pulando...
+O PDF do ato 1777/2024 já existe. Pulando...
+O PDF do ato 1778/2024 já existe. Pulando...
+O PDF do ato 1779/2024 já existe. Pulando...
+O PDF do ofício 73/2024 já existe. Pulando...
+O PDF do ofício 749/2024 já existe. Pulando...
+O PDF do ofício 10/2024 já existe. Pulando...
+10 entidades encontradas para a data 07/11/2024.
+INFO:     179.34.60.187:49640 - "GET /diarios/processar?data=2024-11-07 HTTP/1.1" 200 OK
+Data de processamento fornecida: 05/11/2024
+Processando edição do Diário Oficial de 05/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241105/1-PoderExecutivo/PoderExecutivo(20241105).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241105/6-PoderLegislativo/PoderLegislativo(20241105).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_05-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_05-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-11-2024\1-Poder_Executivo.pdf
+05/11/2024
+PDF salvo: uploads\atos_separados\Ato_57668113_2024.pdf
+05/11/2024
+1 registros inseridos com sucesso!
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-11-2024\6-Poder_Legislativo.pdf
+05/11/2024
+PDF salvo: uploads\atos_separados\Ato_1770_2024.pdf
+05/11/2024
+PDF salvo: uploads\atos_separados\Ato_1771_2024.pdf
+05/11/2024
+PDF salvo: uploads\atos_separados\Ato_1490_2024.pdf
+05/11/2024
+PDF salvo: uploads\oficios_separados\Oficio_0081_2024.pdf
+<class 'str'>
+PDF salvo: uploads\portarias_separadas\Portaria_520_2024.pdf
+5 registros inseridos com sucesso!
+6 entidades encontradas para a data 05/11/2024.
+INFO:     179.34.60.187:49641 - "GET /diarios/processar?data=2024-11-05 HTTP/1.1" 200 OK
+6 entidades encontradas para a data 05/12/2024.
+INFO:     179.34.60.187:49685 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.34.60.187:49684 - "GET /diarios/consultar HTTP/1.1" 200 OK
+6 entidades encontradas para a data 05/12/2024.
+INFO:     179.34.60.187:49693 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.34.60.187:49695 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+Data de processamento fornecida: 05/12/2024
+Processando edição do Diário Oficial de 05/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivo/PoderExecutivo(20241205).pdf'}, {'caderno': '1-Poder ExecutivoExtra', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivoExtra/PoderExecutivoExtra(20241205).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/6-PoderLegislativo/PoderLegislativo(20241205).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_ExecutivoExtra.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_012_2023.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_159_2024.pdf
+05/12/2024
+2 registros inseridos com sucesso!
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+05/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1846_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1847_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1848_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1849_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1850_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1851_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1853_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1854_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1855_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1856_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1858_2024.pdf
+05/12/2024
+PDF salvo: uploads\portarias_separadas\Portaria_533_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_534_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_535_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_536_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_537_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_538_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_539_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_540_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_521_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_506_2024.pdf
+<class 'str'>
+21 registros inseridos com sucesso!
+23 entidades encontradas para a data 05/12/2024.
+INFO:     179.34.60.187:49726 - "GET /diarios/processar?data=2024-12-05 HTTP/1.1" 200 OK
+Data de processamento fornecida: 05/12/2024
+Processando edição do Diário Oficial de 05/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivo/PoderExecutivo(20241205).pdf'}, {'caderno': '1-Poder ExecutivoExtra', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivoExtra/PoderExecutivoExtra(20241205).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/6-PoderLegislativo/PoderLegislativo(20241205).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_ExecutivoExtra.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+05/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+05/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1852_24.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1857_24.pdf
+05/12/2024
+O PDF da portaria 533/2024 já existe. Pulando...
+O PDF da portaria 534/2024 já existe. Pulando...
+O PDF da portaria 535/2024 já existe. Pulando...
+O PDF da portaria 536/2024 já existe. Pulando...
+O PDF da portaria 537/2024 já existe. Pulando...
+O PDF da portaria 538/2024 já existe. Pulando...
+O PDF da portaria 539/2024 já existe. Pulando...
+O PDF da portaria 540/2024 já existe. Pulando...
+O PDF da portaria 521/2024 já existe. Pulando...
+O PDF do ofício 506/2024 já existe. Pulando...
+2 registros inseridos com sucesso!
+25 entidades encontradas para a data 05/12/2024.
+INFO:     179.34.60.187:49778 - "GET /diarios/processar?data=2024-12-05 HTTP/1.1" 200 OK
+INFO:     205.210.31.185:64330 - "GET / HTTP/1.1" 200 OK
+INFO:     80.82.77.139:42334 - "GET / HTTP/1.1" 200 OK
+INFO:     80.82.77.139:55404 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     80.82.77.139:56098 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     80.82.77.139:56582 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     80.82.77.139:57782 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     44.220.188.124:58340 - "GET / HTTP/1.1" 200 OK
+INFO:     172.169.6.183:35916 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.140:34982 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     199.45.154.140:34982 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     199.45.154.140:34982 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     199.45.154.140:34982 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.140:35062 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.140:44954 - "PRI %2A HTTP/2.0" 404 Not Found
+37 entidades encontradas para a data 05/12/2024.
+INFO:     179.189.247.2:50219 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+INFO:     179.189.247.2:50219 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.156.129.57:47781 - "GET / HTTP/1.1" 200 OK
+INFO:     146.190.41.214:50248 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     146.190.41.214:43800 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     146.190.41.214:56188 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:50012 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:35484 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     46.246.8.28:64684 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.58:57396 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:57396 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:57396 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:57396 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.58:33680 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:33708 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     74.82.47.47:35337 - "GET / HTTP/1.1" 200 OK
+INFO:     74.82.47.55:6851 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     74.82.47.23:35455 - "GET / HTTP/1.1" 200 OK
+INFO:     46.246.8.28:1391 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.167:51240 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.167:51240 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.167:51240 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.167:51240 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.167:43008 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.167:41560 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     198.235.24.90:62750 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.129.48:34251 - "GET / HTTP/1.1" 200 OK
+INFO:     87.236.176.206:60275 - "GET / HTTP/1.1" 200 OK
+INFO:     4.151.228.44:55010 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:54480 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     205.210.31.65:58926 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:42708 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     64.227.165.76:56470 - "GET / HTTP/1.1" 200 OK
+INFO:     64.227.165.76:42852 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     184.105.247.247:45421 - "GET / HTTP/1.1" 200 OK
+INFO:     184.105.247.247:23961 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     184.105.247.238:18699 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.150:49660 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     199.45.154.150:49660 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     199.45.154.150:49660 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     199.45.154.150:49660 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.150:41270 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.150:41284 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     167.94.145.107:50006 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.145.107:50006 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.145.107:50006 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.145.107:50006 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.107:50094 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.145.107:50110 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.156.130.8:40833 - "GET / HTTP/1.1" 200 OK
+INFO:     35.216.216.74:35376 - "GET / HTTP/1.1" 200 OK
+INFO:     35.216.216.74:52934 - "GET / HTTP/1.1" 200 OK
+INFO:     35.216.216.74:52936 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     35.216.216.74:52950 - "GET /server-status HTTP/1.1" 404 Not Found
+INFO:     35.216.216.74:52960 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     35.216.216.74:52968 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     35.216.216.74:52984 - "GET /telescope/requests HTTP/1.1" 404 Not Found
+INFO:     35.216.216.74:52990 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     35.216.134.198:43376 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.193:49444 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     162.142.125.193:49444 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     162.142.125.193:49444 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     162.142.125.193:49444 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.193:46532 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.193:46548 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     92.255.57.58:42666 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:47176 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     79.110.62.152:50384 - "GET /sslvpn_logon.shtml HTTP/1.1" 404 Not Found
+INFO:     172.169.4.170:45158 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.89:31783 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.89:35557 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.88:31483 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.10.165:60929 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.10.170:44721 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     213.32.32.95:48039 - "GET / HTTP/1.1" 200 OK
+INFO:     54.38.100.151:38003 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.227.146.163:38048 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     64.227.146.163:52008 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     64.227.146.163:51564 - "GET / HTTP/1.1" 200 OK
+INFO:     138.197.132.150:40546 - "GET / HTTP/1.1" 200 OK
+INFO:     138.197.132.150:40648 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     198.235.24.245:61810 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.162:47660 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.162:47660 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.162:47660 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.162:47660 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.162:33252 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.162:44242 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     154.212.141.192:41392 - "GET / HTTP/1.1" 200 OK
+INFO:     3.12.160.166:32798 - "GET / HTTP/1.1" 200 OK
+INFO:     64.227.176.47:33842 - "GET /ab2g HTTP/1.1" 404 Not Found
+INFO:     64.227.176.47:33856 - "GET /ab2h HTTP/1.1" 404 Not Found
+INFO:     64.227.176.47:54322 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.120:59682 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.120:59682 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.120:59682 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.120:59682 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.120:47962 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.120:47974 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     79.110.62.152:53588 - "GET /remote/login HTTP/1.1" 404 Not Found
+INFO:     147.185.132.210:58984 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:34580 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:41652 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     44.220.188.32:34250 - "GET / HTTP/1.1" 200 OK
+INFO:     185.242.226.23:51900 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.220:42361 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.225:23159 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.226:25081 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.62:55148 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.146.62:55148 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.146.62:55148 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.146.62:55148 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.62:55208 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.62:55228 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     152.32.206.38:56982 - "GET / HTTP/1.1" 200 OK
+INFO:     165.154.206.204:58344 - "GET / HTTP/1.1" 200 OK
+INFO:     165.154.206.204:58754 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     165.154.206.204:58932 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     165.154.206.204:58934 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     87.236.176.3:34909 - "GET / HTTP/1.1" 200 OK
+INFO:     40.83.133.206:43034 - "GET / HTTP/1.1" 200 OK
+INFO:     101.36.97.187:48930 - "GET / HTTP/1.1" 200 OK
+INFO:     101.36.97.187:48936 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     101.36.97.187:37382 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     101.36.97.187:37384 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     101.36.97.187:37498 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     167.94.138.160:50852 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.160:50852 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.160:50852 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.160:50852 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.160:56934 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.160:36616 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     92.255.57.58:32808 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     51.159.101.214:40206 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:54864 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     71.6.232.25:45276 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.130.31:43195 - "GET / HTTP/1.1" 200 OK
+INFO:     180.188.198.116:54750 - "POST /enterprise/control/agent.php HTTP/1.1" 404 Not Found
+INFO:     45.156.130.6:44521 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.98:60755 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.97:21717 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.99:62221 - "GET / HTTP/1.1" 200 OK
+INFO:     87.120.127.17:34640 - "GET / HTTP/1.1" 200 OK
+INFO:     174.138.61.44:53630 - "GET / HTTP/1.1" 200 OK
+INFO:     106.75.19.183:42956 - "GET / HTTP/1.1" 200 OK
+INFO:     64.225.52.18:38720 - "GET / HTTP/1.1" 200 OK
+INFO:     64.225.52.18:38818 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.210.31.137:65152 - "GET / HTTP/1.1" 200 OK
+INFO:     139.59.37.187:38264 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     139.59.37.187:55754 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     139.59.37.187:52366 - "GET / HTTP/1.1" 200 OK
+INFO:     209.97.180.8:53398 - "GET / HTTP/1.1" 200 OK
+INFO:     209.97.180.8:58728 - "GET / HTTP/1.1" 200 OK
+INFO:     209.97.180.8:58730 - "GET /actuator/env HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:58732 - "GET /server HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:58740 - "GET /.vscode/sftp.json HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:58756 - "GET /about HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:58770 - "GET /debug/default/view?panel=config HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:58772 - "GET /v2/_catalog HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:58774 - "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:58778 - "GET /server-status HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:58792 - "GET /login.action HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:58798 - "GET /_all_dbs HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:36658 - "GET /.DS_Store HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:36662 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:36674 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:36680 - "GET /s/3353e2234313e2331323e29383/_/%3B/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:36694 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:36710 - "GET /telescope/requests HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:36724 - "GET /info.php HTTP/1.1" 404 Not Found
+INFO:     209.97.180.8:36734 - "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 OK
+INFO:     45.156.128.77:56349 - "GET / HTTP/1.1" 200 OK
+INFO:     179.251.80.15:49510 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     179.251.80.15:49510 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:49532 - "GET /diarios/consultar HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+INFO:     179.251.80.15:49533 - "GET /diarios/processar?data=2024-12-17 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+INFO:     179.251.80.15:49551 - "GET /diarios/processar?data=2024-12-17 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+INFO:     179.251.80.15:49551 - "GET /diarios/processar?data=2024-12-17 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+INFO:     179.251.80.15:49559 - "GET /diarios/processar?data=2024-12-17 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+INFO:     179.251.80.15:49560 - "GET /diarios/processar?data=2024-12-17 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+INFO:     179.251.80.15:49567 - "GET /diarios/processar?data=2024-12-17 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+INFO:     179.251.80.15:49580 - "GET /diarios/processar?data=2024-12-17 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+PDF salvo: uploads\atos_separados\Ato_1882_24.pdf
+17/12/2024
+PDF salvo: uploads\atos_separados\Ato_1819_2024.pdf
+17/12/2024
+PDF salvo: uploads\oficios_separados\Oficio_233_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_234_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_235_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_236_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_017_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_19_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_1570_2024.pdf
+<class 'str'>
+PDF salvo: uploads\portarias_separadas\Portaria_565_24.pdf
+O PDF da portaria 534/2024 já existe. Pulando...
+PDF salvo: uploads\oficios_separados\Oficio_547_2024.pdf
+<class 'str'>
+11 registros inseridos com sucesso!
+11 entidades encontradas para a data 17/12/2024.
+INFO:     179.251.80.15:49584 - "GET /diarios/processar?data=2024-12-17 HTTP/1.1" 200 OK
+11 entidades encontradas para a data None.
+INFO:     179.251.80.15:49595 - "GET /diarios/consultar HTTP/1.1" 200 OK
+11 entidades encontradas para a data None.
+INFO:     179.251.80.15:49594 - "GET /diarios/consultar?response_format=xml HTTP/1.1" 200 OK
+11 entidades encontradas para a data None.
+INFO:     179.251.80.15:49597 - "GET /diarios/consultar?data=2024-06-01&response_format=xml HTTP/1.1" 200 OK
+11 entidades encontradas para a data None.
+INFO:     179.251.80.15:49599 - "GET /diarios/consultar?data=2024-12-04&response_format=xml HTTP/1.1" 200 OK
+11 entidades encontradas para a data None.
+INFO:     179.251.80.15:49606 - "GET /diarios/consultar?data=2024-12-04&response_format=xml HTTP/1.1" 200 OK
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:49608 - "GET /diarios/consultar?data_consulta=04/12/2024&response_format=xml HTTP/1.1" 200 OK
+37 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:49609 - "GET /diarios/consultar?data_consulta=05/12/2024&response_format=xml HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 2024-12-16...
+Erro ao acessar a URL https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos: 400 Client Error:  for url: https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos?dataPublicacao=2024-12-16
+[]
+INFO:     179.251.80.15:49682 - "GET /diarios/processar?data=16/12/2024 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 2024-12-16...
+Erro ao acessar a URL https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos: 400 Client Error:  for url: https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos?dataPublicacao=2024-12-16
+[]
+INFO:     179.251.80.15:49682 - "GET /diarios/processar?data=16/12/2024 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 2024-12-14...
+Erro ao acessar a URL https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos: 400 Client Error:  for url: https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos?dataPublicacao=2024-12-14
+[]
+INFO:     179.251.80.15:49681 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 2024-12-13...
+Erro ao acessar a URL https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos: 400 Client Error:  for url: https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos?dataPublicacao=2024-12-13
+[]
+INFO:     179.251.80.15:49697 - "GET /diarios/processar?data=13/12/2024 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 2024-12-13...
+Erro ao acessar a URL https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos: 400 Client Error:  for url: https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos?dataPublicacao=2024-12-13
+[]
+INFO:     179.251.80.15:49699 - "GET /diarios/processar?data=13/12/2024 HTTP/1.1" 500 Internal Server Error
+INFO:     179.251.80.15:49708 - "GET /diarios/processar?data=2024-12-16 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 2024-11-14...
+Erro ao acessar a URL https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos: 400 Client Error:  for url: https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos?dataPublicacao=2024-11-14
+[]
+INFO:     179.251.80.15:49707 - "GET /diarios/processar?data=14/11/2024 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 2024-11-14...
+Erro ao acessar a URL https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos: 400 Client Error:  for url: https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos?dataPublicacao=2024-11-14
+[]
+INFO:     179.251.80.15:49796 - "GET /diarios/processar?data=14/11/2024 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 2024-11-14...
+Erro ao acessar a URL https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos: 400 Client Error:  for url: https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos?dataPublicacao=2024-11-14
+[]
+INFO:     179.251.80.15:49840 - "GET /diarios/processar?data=14/11/2024 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 2024-11-14...
+Erro ao acessar a URL https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos: 400 Client Error:  for url: https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos?dataPublicacao=2024-11-14
+[]
+INFO:     179.251.80.15:49840 - "GET /diarios/processar?data=14/11/2024 HTTP/1.1" 500 Internal Server Error
+INFO:     179.251.80.15:49841 - "GET /diarios/processar?data=14/11/202 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 2024-11-14...
+Erro ao acessar a URL https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos: 400 Client Error:  for url: https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos?dataPublicacao=2024-11-14
+[]
+INFO:     179.251.80.15:49847 - "GET /diarios/processar?data=14/11/2024 HTTP/1.1" 500 Internal Server Error
+INFO:     179.251.80.15:49856 - "GET /diarios/processar?data=14/11/2024 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 14/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/1-PoderExecutivo/PoderExecutivo(20241214).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/6-PoderLegislativo/PoderLegislativo(20241214).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_14-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_14-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+14/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+14/12/2024
+PDF salvo: uploads\atos_separados\Ato_1879_24.pdf
+14/12/2024
+PDF salvo: uploads\atos_separados\Ato_1880_2024.pdf
+14/12/2024
+PDF salvo: uploads\atos_separados\Ato_1881_2024.pdf
+14/12/2024
+PDF salvo: uploads\portarias_separadas\Portaria_564_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_532_2024.pdf
+O PDF da portaria 533/2024 já existe. Pulando...
+PDF salvo: uploads\oficios_separados\Oficio_56_2024.pdf
+<class 'str'>
+6 registros inseridos com sucesso!
+6 entidades encontradas para a data 14/12/2024.
+INFO:     179.251.80.15:49857 - "GET /diarios/processar?data=2024-12-14 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 2024-11-13...
+Erro ao acessar a URL https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos: 400 Client Error:  for url: https://diariooficial.cepe.com.br/diariooficial/public/home/cadernos?dataPublicacao=2024-11-13
+[]
+INFO:     179.251.80.15:49879 - "GET /diarios/processar?data=13/11/2024 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 13/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241113/1-PoderExecutivo/PoderExecutivo(20241113).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241113/6-PoderLegislativo/PoderLegislativo(20241113).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_13-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_13-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_13-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_13-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_13-11-2024\1-Poder_Executivo.pdf
+13/11/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_13-11-2024\6-Poder_Legislativo.pdf
+13/11/2024
+PDF salvo: uploads\atos_separados\Ato_1795_24.pdf
+13/11/2024
+PDF salvo: uploads\atos_separados\Ato_1796_2024.pdf
+13/11/2024
+PDF salvo: uploads\atos_separados\Ato_1797_2024.pdf
+13/11/2024
+PDF salvo: uploads\atos_separados\Ato_1490_2024.pdf
+13/11/2024
+PDF salvo: uploads\oficios_separados\Oficio_105_2024.pdf
+<class 'str'>
+PDF salvo: uploads\portarias_separadas\Portaria_500_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_501_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_502_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_061_2024.pdf
+<class 'str'>
+9 registros inseridos com sucesso!
+9 entidades encontradas para a data 13/11/2024.
+INFO:     179.251.80.15:49883 - "GET /diarios/processar?data=13/11/2024 HTTP/1.1" 200 OK
+INFO:     179.251.80.15:50012 - "GET /diarios/consultar?data_consulta=17/12/2024&response_format=xml HTTP/1.1" 500 Internal Server Error
+INFO:     179.251.80.15:50026 - "GET /diarios/consultar?data_consulta=17/12/2024&response_format=xml HTTP/1.1" 500 Internal Server Error
+11 entidades encontradas para a data 17/12/2024.
+INFO:     179.251.80.15:50040 - "GET /diarios/consultar?data_consulta=17/12/2024&response_format=xml HTTP/1.1" 200 OK
+37 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50052 - "GET /diarios/consultar?data_consulta=05/12/2024&response_format=json HTTP/1.1" 200 OK
+INFO:     179.251.80.15:50150 - "GET /diarios/processar?data=2024-12-17 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+O PDF do ato 1882/24 já existe. Pulando...
+O PDF do ofício 233/2024 já existe. Pulando...
+O PDF do ofício 234/2024 já existe. Pulando...
+O PDF do ofício 235/2024 já existe. Pulando...
+O PDF do ofício 236/2024 já existe. Pulando...
+O PDF do ofício 017/2024 já existe. Pulando...
+O PDF do ofício 19/2024 já existe. Pulando...
+O PDF do ofício 1570/2024 já existe. Pulando...
+O PDF da portaria 565/24 já existe. Pulando...
+O PDF da portaria 534/2024 já existe. Pulando...
+O PDF do ofício 547/2024 já existe. Pulando...
+11 entidades encontradas para a data 17/12/2024.
+INFO:     179.251.80.15:50149 - "GET /diarios/processar?data=17/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+O PDF do ato 1882/24 já existe. Pulando...
+O PDF do ofício 233/2024 já existe. Pulando...
+O PDF do ofício 234/2024 já existe. Pulando...
+O PDF do ofício 235/2024 já existe. Pulando...
+O PDF do ofício 236/2024 já existe. Pulando...
+O PDF do ofício 017/2024 já existe. Pulando...
+O PDF do ofício 19/2024 já existe. Pulando...
+O PDF do ofício 1570/2024 já existe. Pulando...
+O PDF da portaria 565/24 já existe. Pulando...
+O PDF da portaria 534/2024 já existe. Pulando...
+O PDF do ofício 547/2024 já existe. Pulando...
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50248 - "GET /diarios/processar?data=17/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+O PDF do ato 1882/24 já existe. Pulando...
+O PDF do ofício 233/2024 já existe. Pulando...
+O PDF do ofício 234/2024 já existe. Pulando...
+O PDF do ofício 235/2024 já existe. Pulando...
+O PDF do ofício 236/2024 já existe. Pulando...
+O PDF do ofício 017/2024 já existe. Pulando...
+O PDF do ofício 19/2024 já existe. Pulando...
+O PDF do ofício 1570/2024 já existe. Pulando...
+O PDF da portaria 565/24 já existe. Pulando...
+O PDF da portaria 534/2024 já existe. Pulando...
+O PDF do ofício 547/2024 já existe. Pulando...
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50264 - "GET /diarios/processar?data=17/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+O PDF do ato 1882/24 já existe. Pulando...
+O PDF do ofício 233/2024 já existe. Pulando...
+O PDF do ofício 234/2024 já existe. Pulando...
+O PDF do ofício 235/2024 já existe. Pulando...
+O PDF do ofício 236/2024 já existe. Pulando...
+O PDF do ofício 017/2024 já existe. Pulando...
+O PDF do ofício 19/2024 já existe. Pulando...
+O PDF do ofício 1570/2024 já existe. Pulando...
+O PDF da portaria 565/24 já existe. Pulando...
+O PDF da portaria 534/2024 já existe. Pulando...
+O PDF do ofício 547/2024 já existe. Pulando...
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50268 - "GET /diarios/processar?data=17/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+O PDF do ofício 233/2024 já existe. Pulando...
+O PDF do ofício 234/2024 já existe. Pulando...
+O PDF do ofício 235/2024 já existe. Pulando...
+O PDF do ofício 236/2024 já existe. Pulando...
+O PDF do ofício 017/2024 já existe. Pulando...
+O PDF do ofício 19/2024 já existe. Pulando...
+O PDF do ofício 1570/2024 já existe. Pulando...
+O PDF da portaria 565/24 já existe. Pulando...
+O PDF da portaria 534/2024 já existe. Pulando...
+O PDF do ofício 547/2024 já existe. Pulando...
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50277 - "GET /diarios/processar?data=17/12/2024 HTTP/1.1" 200 OK
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50288 - "GET /diarios/consultar?data_consulta=17/12/2024 HTTP/1.1" 200 OK
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50293 - "GET /diarios/consultar?data_consulta=14/12/2024 HTTP/1.1" 200 OK
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50298 - "GET /diarios/consultar?data_consulta=14/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 14/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/1-PoderExecutivo/PoderExecutivo(20241214).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/6-PoderLegislativo/PoderLegislativo(20241214).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_14-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_14-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+14/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+14/12/2024
+O PDF da portaria 564/2024 já existe. Pulando...
+O PDF da portaria 532/2024 já existe. Pulando...
+O PDF da portaria 533/2024 já existe. Pulando...
+O PDF do ofício 56/2024 já existe. Pulando...
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50302 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 14/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/1-PoderExecutivo/PoderExecutivo(20241214).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/6-PoderLegislativo/PoderLegislativo(20241214).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_14-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_14-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+14/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+14/12/2024
+O PDF do ato 1879/24 já existe. Pulando...
+O PDF do ato 1880/2024 já existe. Pulando...
+O PDF do ato 1881/2024 já existe. Pulando...
+O PDF da portaria 564/2024 já existe. Pulando...
+O PDF da portaria 532/2024 já existe. Pulando...
+O PDF da portaria 533/2024 já existe. Pulando...
+O PDF do ofício 56/2024 já existe. Pulando...
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50305 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 14/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/1-PoderExecutivo/PoderExecutivo(20241214).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/6-PoderLegislativo/PoderLegislativo(20241214).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_14-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_14-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+14/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+14/12/2024
+O PDF do ato 1879/24 já existe. Pulando...
+O PDF do ato 1880/2024 já existe. Pulando...
+O PDF do ato 1881/2024 já existe. Pulando...
+O PDF da portaria 564/2024 já existe. Pulando...
+O PDF da portaria 532/2024 já existe. Pulando...
+O PDF da portaria 533/2024 já existe. Pulando...
+O PDF do ofício 56/2024 já existe. Pulando...
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50305 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 14/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/1-PoderExecutivo/PoderExecutivo(20241214).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/6-PoderLegislativo/PoderLegislativo(20241214).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_14-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_14-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+14/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+14/12/2024
+O PDF do ato 1879/24 já existe. Pulando...
+O PDF do ato 1880/2024 já existe. Pulando...
+O PDF do ato 1881/2024 já existe. Pulando...
+O PDF da portaria 564/2024 já existe. Pulando...
+O PDF da portaria 532/2024 já existe. Pulando...
+O PDF da portaria 533/2024 já existe. Pulando...
+O PDF do ofício 56/2024 já existe. Pulando...
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50316 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 14/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/1-PoderExecutivo/PoderExecutivo(20241214).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/6-PoderLegislativo/PoderLegislativo(20241214).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_14-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_14-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+14/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+14/12/2024
+O PDF do ato 1879/24 já existe. Pulando...
+O PDF do ato 1880/2024 já existe. Pulando...
+O PDF do ato 1881/2024 já existe. Pulando...
+O PDF da portaria 564/2024 já existe. Pulando...
+O PDF da portaria 532/2024 já existe. Pulando...
+O PDF da portaria 533/2024 já existe. Pulando...
+O PDF do ofício 56/2024 já existe. Pulando...
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50327 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 14/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/1-PoderExecutivo/PoderExecutivo(20241214).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/6-PoderLegislativo/PoderLegislativo(20241214).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_14-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_14-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+14/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+14/12/2024
+PDF salvo: uploads\portarias_separadas\Portaria_564_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_532_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_533_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_56_2024.pdf
+<class 'str'>
+4 registros inseridos com sucesso!
+4 entidades encontradas para a data 14/12/2024.
+INFO:     179.251.80.15:50337 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 200 OK

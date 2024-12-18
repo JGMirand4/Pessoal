@@ -1,75 +1,108 @@
 from fastapi import APIRouter, HTTPException, Query
+from fastapi.responses import Response
 from app.services.diarios import processar_diario_oficial
 from app.services.banco import consultar_entidades_data
 from typing import Optional
 from datetime import datetime
+from dicttoxml import dicttoxml 
+import json
 
 router = APIRouter()
 
-
-@router.post("/processar")
-def baixar_diario(data: Optional[str] = Query(None, description="Data no formato YYYY-MM-DD")):
+@router.api_route("/processar", methods=["GET", "POST"])
+def baixar_diario(
+    data: Optional[str] = Query(None, description="Data no formato dd/mm/aaaa"),
+    response_format: Optional[str] = Query("json", description="Formato de retorno: json ou xml")
+):
     """
     Processa o diário oficial e retorna os atos processados.
     
     Parâmetros:
-    - data (opcional): Data específica para o processamento no formato YYYY-MM-DD.
+    - data (opcional): Data específica para o processamento no formato dd/mm/aaaa.
+    - response_format (opcional): Formato da resposta (json ou xml). Padrão: json.
     """
     try:
-        # Validação da data, se fornecida
+        # Validação da data no formato dd/mm/aaaa
         if data:
             try:
-                # Converter para datetime no formato YYYY-MM-DD
-                data_obj = datetime.strptime(data, "%Y-%m-%d").date()
-                # Converter para o formato dd/mm/aaaa
-                data_processamento = data_obj.strftime("%d/%m/%Y")
-                print(f"Data de processamento fornecida: {data_processamento}")
+                # Converter de dd/mm/aaaa para objeto de data
+                data_obj = datetime.strptime(data, "%d/%m/%Y").date()
             except ValueError:
                 raise HTTPException(
                     status_code=400,
-                    detail="Data inválida. Use o formato YYYY-MM-DD."
+                    detail="Data inválida. Use o formato dd/mm/aaaa."
                 )
         else:
-            # Se nenhuma data for fornecida, usar a data atual
+            # Caso a data não seja fornecida, usa a data atual
             data_obj = datetime.now().date()
-            data_processamento = data_obj.strftime("%d/%m/%Y")
-            print(f"Data de processamento padrão (hoje): {data_processamento}")
         
-        # Processar o diário oficial para a data fornecida ou a data atual
+        # Formatar a data para uso interno (DD/MM/YYYY)
+        data_processamento = data_obj.strftime("%d/%m/%Y")
+        
+        # Processar o diário oficial e consultar entidades
         resultado = processar_diario_oficial(data=data_processamento)
-        
-        # Consultar os atos processados para a data fornecida ou a data atual
         entidades_processados = consultar_entidades_data(data_consulta=data_processamento)
         
-        # Retornar resultado do processamento e os atos
-        return {
+        response_data = {
             "message": "Processamento concluído.",
             "resultado": resultado,
             "entidades_processados": entidades_processados,
+            "data_processada": data_obj.strftime("%d/%m/%Y")  # Retorna no formato dd/mm/aaaa
         }
+
+        # Checa o formato de resposta solicitado
+        if response_format.lower() == "xml":
+            xml_response = dicttoxml(response_data, custom_root="response", attr_type=False)
+            return Response(content=xml_response, media_type="application/xml")
+        elif response_format.lower() == "json":
+            return response_data
+        else:
+            raise HTTPException(status_code=400, detail="Formato inválido. Use 'json' ou 'xml'.")
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
 
-
 @router.get("/consultar")
-def consultar_entidades(data_consulta=None):
+def consultar_entidades(
+    data_consulta: Optional[str] = Query(None, description="Data no formato dd/mm/aaaa"),
+    response_format: Optional[str] = Query("json", description="Formato de retorno: json ou xml")
+):
     """
-    Consulta atos do banco de dados. 
-    - Se uma data for fornecida no formato dd/mm/aaaa, busca atos daquela data.
-    - Se nenhuma data for fornecida, busca atos recém-inseridos no banco (últimos 2 minutos).
-    :param data_consulta: Data no formato dd/mm/aaaa (opcional).
-    :return: Lista de dicionários contendo os detalhes dos atos consultados.
+    Consulta atos do banco de dados.
+    
+    Parâmetros:
+    - data_consulta (opcional): Data no formato dd/mm/aaaa.
+    - response_format (opcional): Formato da resposta (json ou xml). Padrão: json.
     """
-    if data_consulta:
-        # Chamando a função para consultar entidades por data
-        try:
-            return consultar_entidades_data(data_consulta)
-        except Exception as e:
-            raise Exception(f"Erro ao consultar entidades pela data fornecida: {e}")
-    else:
-        # Consultando atos recém-inseridos
-        try:
-            return consultar_entidades_data()
-        except Exception as e:
-            raise Exception(f"Erro ao consultar entidades recém-processadas: {e}")
+    try:
+        if data_consulta:
+            try:
+                # Valida e converte a data fornecida
+                data_obj = datetime.strptime(data_consulta, "%d/%m/%Y").date()
+                data_formatada = data_obj.strftime("%d/%m/%Y")
+            except ValueError:
+                raise HTTPException(
+                    status_code=400,
+                    detail="Data inválida. Use o formato dd/mm/aaaa."
+                )
+            resultado = consultar_entidades_data(data_consulta=data_formatada)
+        else:
+            resultado = consultar_entidades_data()
+        
+        response_data = {
+            "message": "Consulta concluída.",
+            "data": resultado,
+        }
+
+        # Checa o formato de resposta solicitado
+        if response_format.lower() == "xml":
+            xml_response = dicttoxml(response_data, custom_root="response", attr_type=False)
+            return Response(content=xml_response, media_type="application/xml")
+        elif response_format.lower() == "json":
+            return response_data
+        else:
+            raise HTTPException(status_code=400, detail="Formato inválido. Use 'json' ou 'xml'.")
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

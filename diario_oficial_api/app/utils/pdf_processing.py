@@ -10,7 +10,12 @@ def extrair_atos(page, page_num, atos_separados_folder, data=None):
     """
     dados_atos = []
     text = page.get_text("text")
-    matches_atos = re.finditer(r'(ATO Nº (\d+)/(\d+).*?Presidente)', text, re.DOTALL)
+
+    regex_ato = (
+    r'(ATO Nº\.? (\d+)/(\d{2,4})\s+.*?O PRESIDENTE DA ASSEMBLEIA LEGISLATIVA DO ESTADO DE PERNAMBUCO,'
+    r'.*?RESOLVE:.*?Deputado ÁLVARO PORTO\s+Presidente)')
+
+    matches_atos = re.finditer(regex_ato, text, re.DOTALL)
     
     for match in matches_atos:
         ato_text = match.group(0)
@@ -62,7 +67,8 @@ def extrair_portarias(page, page_num, portarias_separadas_folder, data=None):
     """
     dados_portarias = []
     text = page.get_text("text")
-    matches_portarias = re.finditer(r'(PORTARIA Nº\.? (\d+)/(\d+).*?(Superintendente Geral|Primeiro Secretário))', text, re.DOTALL)
+
+    matches_portarias = re.finditer(r'(PORTARIA Nº\.? (\d+)/(\d+).*?(Superintendente Geral|Primeiro Secretário|Presidente))', text, re.DOTALL)
     
     for match in matches_portarias:
         portaria_text = match.group(0)
@@ -114,6 +120,7 @@ def extrair_oficios(page, page_num, oficios_separados_folder, data=None):
     """
     dados_oficios = []
     text = page.get_text("text")
+
     matches_oficios = re.finditer(
         r'(OFÍCIO Nº (\d+)/(\d+)|Ofício nº (\d+)/(\d+)|Ofício GAB nº (\d+)/(\d+)|OFÍCIO (\d+)/(\d+)/GAB.*?Deputado Estadual)', 
         text, 
@@ -163,7 +170,6 @@ def extrair_oficios(page, page_num, oficios_separados_folder, data=None):
 
     return dados_oficios
 
-
 def extract_and_save_acts_with_integration(pdf_path, output_folder, conexao, data=None):
     """
     Processa um PDF e extrai atos, portarias e ofícios, incluindo o tipo de diário no campo 'PAGINA'.
@@ -196,28 +202,29 @@ def extract_and_save_acts_with_integration(pdf_path, output_folder, conexao, dat
 
     doc = fitz.open(pdf_path)
     dados_para_inserir = []
+
     print(data)
     for page_num in range(len(doc)):
-        page = doc[page_num]
-    
+        if tipo_diario != "Executivo":
+            page = doc[page_num]
+        
+            # Extrair atos
+            atos = extrair_atos(page, page_num, atos_separados_folder, data)
+            for ato in atos:
+                ato["PAGINA"] += f"/{tipo_diario}"  
+            dados_para_inserir.extend(atos)
 
-        # Extrair atos
-        atos = extrair_atos(page, page_num, atos_separados_folder, data)
-        for ato in atos:
-            ato["PAGINA"] += f"/{tipo_diario}"  
-        dados_para_inserir.extend(atos)
+            # Extrair portarias
+            portarias = extrair_portarias(page, page_num, portarias_separadas_folder, data)
+            for portaria in portarias:
+                portaria["PAGINA"] += f"/{tipo_diario}"  
+            dados_para_inserir.extend(portarias)
 
-        # Extrair portarias
-        portarias = extrair_portarias(page, page_num, portarias_separadas_folder, data)
-        for portaria in portarias:
-            portaria["PAGINA"] += f"/{tipo_diario}"  
-        dados_para_inserir.extend(portarias)
-
-        # Extrair ofícios
-        oficios = extrair_oficios(page, page_num, oficios_separados_folder, data)
-        for oficio in oficios:
-            oficio["PAGINA"] += f"/{tipo_diario}" 
-        dados_para_inserir.extend(oficios)
+            # Extrair ofícios
+            oficios = extrair_oficios(page, page_num, oficios_separados_folder, data)
+            for oficio in oficios:
+                oficio["PAGINA"] += f"/{tipo_diario}" 
+            dados_para_inserir.extend(oficios)
     
     # Inserir no banco de dados
     if dados_para_inserir:
