@@ -1339,3 +1339,426 @@ O PDF do ofício 56/2024 já existe. Pulando...
 1 registros inseridos com sucesso!
 1 entidades encontradas para a data 14/12/2024.
 INFO:     179.251.80.15:50349 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 14/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/1-PoderExecutivo/PoderExecutivo(20241214).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/6-PoderLegislativo/PoderLegislativo(20241214).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_14-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_14-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+14/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+14/12/2024
+PDF salvo: uploads\atos_separados\Ato_1879_24.pdf
+14/12/2024
+PDF salvo: uploads\portarias_separadas\Portaria_564_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_532_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_533_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_56_2024.pdf
+<class 'str'>
+5 registros inseridos com sucesso!
+5 entidades encontradas para a data 14/12/2024.
+INFO:     179.251.80.15:50370 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+PDF salvo: uploads\atos_separados\Ato_1882_24.pdf
+17/12/2024
+PDF salvo: uploads\oficios_separados\Oficio_233_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_234_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_235_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_236_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_017_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_19_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_1570_2024.pdf
+<class 'str'>
+PDF salvo: uploads\portarias_separadas\Portaria_565_24.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_534_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_547_2024.pdf
+<class 'str'>
+11 registros inseridos com sucesso!
+11 entidades encontradas para a data 17/12/2024.
+INFO:     179.251.80.15:50378 - "GET /diarios/processar?data=17/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 05/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivo/PoderExecutivo(20241205).pdf'}, {'caderno': '1-Poder ExecutivoExtra', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivoExtra/PoderExecutivoExtra(20241205).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/6-PoderLegislativo/PoderLegislativo(20241205).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_ExecutivoExtra.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+05/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+05/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1846_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1854_2024.pdf
+05/12/2024
+O PDF da portaria 533/2024 já existe. Pulando...
+O PDF da portaria 534/2024 já existe. Pulando...
+PDF salvo: uploads\portarias_separadas\Portaria_535_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_536_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_537_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_538_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_539_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_540_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_521_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_506_2024.pdf
+<class 'str'>
+10 registros inseridos com sucesso!
+10 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50417 - "GET /diarios/processar?data=05/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 05/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivo/PoderExecutivo(20241205).pdf'}, {'caderno': '1-Poder ExecutivoExtra', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivoExtra/PoderExecutivoExtra(20241205).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/6-PoderLegislativo/PoderLegislativo(20241205).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_ExecutivoExtra.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+05/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+05/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1846_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1847_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1848_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1849_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1850_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1851_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1852_24.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1854_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1855_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1856_2024.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1857_24.pdf
+05/12/2024
+PDF salvo: uploads\atos_separados\Ato_1858_2024.pdf
+05/12/2024
+PDF salvo: uploads\portarias_separadas\Portaria_533_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_534_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_535_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_536_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_537_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_538_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_539_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_540_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_521_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_506_2024.pdf
+<class 'str'>
+22 registros inseridos com sucesso!
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50435 - "GET /diarios/processar?data=05/12/2024 HTTP/1.1" 200 OK
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50524 - "GET /diarios/consultar?data_consulta=17/12/2024 HTTP/1.1" 200 OK
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50531 - "GET /diarios/consultar?data_consulta=17/12/2024 HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50536 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 17/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/1-PoderExecutivo/PoderExecutivo(20241217).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241217/6-PoderLegislativo/PoderLegislativo(20241217).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_17-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_17-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\1-Poder_Executivo.pdf
+17/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_17-12-2024\6-Poder_Legislativo.pdf
+17/12/2024
+PDF salvo: uploads\atos_separados\Ato_1882_24.pdf
+17/12/2024
+PDF salvo: uploads\oficios_separados\Oficio_233_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_234_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_235_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_236_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_017_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_19_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_1570_2024.pdf
+<class 'str'>
+PDF salvo: uploads\portarias_separadas\Portaria_565_24.pdf
+O PDF da portaria 534/2024 já existe. Pulando...
+PDF salvo: uploads\oficios_separados\Oficio_547_2024.pdf
+<class 'str'>
+10 registros inseridos com sucesso!
+10 entidades encontradas para a data 17/12/2024.
+INFO:     179.251.80.15:50541 - "GET /diarios/processar?data=17/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 14/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/1-PoderExecutivo/PoderExecutivo(20241214).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241214/6-PoderLegislativo/PoderLegislativo(20241214).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_14-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_14-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\1-Poder_Executivo.pdf
+14/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_14-12-2024\6-Poder_Legislativo.pdf
+14/12/2024
+PDF salvo: uploads\atos_separados\Ato_1879_24.pdf
+14/12/2024
+PDF salvo: uploads\atos_separados\Ato_1880_2024.pdf
+14/12/2024
+PDF salvo: uploads\portarias_separadas\Portaria_564_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_532_2024.pdf
+O PDF da portaria 533/2024 já existe. Pulando...
+PDF salvo: uploads\oficios_separados\Oficio_56_2024.pdf
+<class 'str'>
+5 registros inseridos com sucesso!
+5 entidades encontradas para a data 14/12/2024.
+INFO:     179.251.80.15:50547 - "GET /diarios/processar?data=14/12/2024 HTTP/1.1" 200 OK
+5 entidades encontradas para a data 14/12/2024.
+INFO:     179.251.80.15:50555 - "GET /diarios/consultar?data_consulta=14/12/2024 HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50559 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50581 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50600 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50607 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50607 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50629 - "GET /diarios/consultar?data_consulta=05/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 05/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivo/PoderExecutivo(20241205).pdf'}, {'caderno': '1-Poder ExecutivoExtra', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivoExtra/PoderExecutivoExtra(20241205).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/6-PoderLegislativo/PoderLegislativo(20241205).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_ExecutivoExtra.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+05/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+05/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+05/12/2024
+O PDF do ato 1846/2024 já existe. Pulando...
+O PDF do ato 1847/2024 já existe. Pulando...
+O PDF do ato 1848/2024 já existe. Pulando...
+O PDF do ato 1849/2024 já existe. Pulando...
+O PDF do ato 1850/2024 já existe. Pulando...
+O PDF do ato 1851/2024 já existe. Pulando...
+O PDF do ato 1852/24 já existe. Pulando...
+O PDF do ato 1854/2024 já existe. Pulando...
+O PDF do ato 1855/2024 já existe. Pulando...
+O PDF do ato 1856/2024 já existe. Pulando...
+O PDF do ato 1857/24 já existe. Pulando...
+O PDF do ato 1858/2024 já existe. Pulando...
+PDF salvo: uploads\portarias_separadas\Portaria_533_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_534_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_535_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_536_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_537_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_538_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_539_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_540_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_521_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_506_2024.pdf
+<class 'str'>
+10 registros inseridos com sucesso!
+32 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50642 - "GET /diarios/processar?data=10512/2024 HTTP/1.1" 500 Internal Server Error
+Processando edição do Diário Oficial de 05/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivo/PoderExecutivo(20241205).pdf'}, {'caderno': '1-Poder ExecutivoExtra', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/1-PoderExecutivoExtra/PoderExecutivoExtra(20241205).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241205/6-PoderLegislativo/PoderLegislativo(20241205).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\1-Poder_ExecutivoExtra.pdf', 'uploads/diarios_pernambuco\\diarios_05-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_Executivo.pdf
+05/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\1-Poder_ExecutivoExtra.pdf
+05/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_05-12-2024\6-Poder_Legislativo.pdf
+05/12/2024
+O PDF do ato 1846/2024 já existe. Pulando...
+O PDF do ato 1847/2024 já existe. Pulando...
+O PDF do ato 1848/2024 já existe. Pulando...
+O PDF do ato 1849/2024 já existe. Pulando...
+O PDF do ato 1850/2024 já existe. Pulando...
+O PDF do ato 1851/2024 já existe. Pulando...
+O PDF do ato 1852/24 já existe. Pulando...
+O PDF do ato 1854/2024 já existe. Pulando...
+O PDF do ato 1855/2024 já existe. Pulando...
+O PDF do ato 1856/2024 já existe. Pulando...
+O PDF do ato 1857/24 já existe. Pulando...
+O PDF do ato 1858/2024 já existe. Pulando...
+O PDF da portaria 533/2024 já existe. Pulando...
+O PDF da portaria 534/2024 já existe. Pulando...
+O PDF da portaria 535/2024 já existe. Pulando...
+O PDF da portaria 536/2024 já existe. Pulando...
+O PDF da portaria 537/2024 já existe. Pulando...
+O PDF da portaria 538/2024 já existe. Pulando...
+O PDF da portaria 539/2024 já existe. Pulando...
+O PDF da portaria 540/2024 já existe. Pulando...
+O PDF da portaria 521/2024 já existe. Pulando...
+O PDF do ofício 506/2024 já existe. Pulando...
+32 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:50646 - "GET /diarios/processar?data=05/12/2024 HTTP/1.1" 200 OK
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     179.251.80.15:50677 - "GET /diarios/consultar?data_consulta=04/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 04/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241204/1-PoderExecutivo/PoderExecutivo(20241204).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241204/6-PoderLegislativo/PoderLegislativo(20241204).pdf'}, {'caderno': '6-Poder LegislativoExtra', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241204/6-PoderLegislativoExtra/PoderLegislativoExtra(20241204).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_04-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_04-12-2024\6-Poder_Legislativo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_04-12-2024\6-Poder_LegislativoExtra.pdf
+['uploads/diarios_pernambuco\\diarios_04-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_04-12-2024\\6-Poder_Legislativo.pdf', 'uploads/diarios_pernambuco\\diarios_04-12-2024\\6-Poder_LegislativoExtra.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_04-12-2024\1-Poder_Executivo.pdf
+04/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_04-12-2024\6-Poder_Legislativo.pdf
+04/12/2024
+PDF salvo: uploads\atos_separados\Ato_1841_2024.pdf
+04/12/2024
+PDF salvo: uploads\atos_separados\Ato_1842_2024.pdf
+04/12/2024
+PDF salvo: uploads\atos_separados\Ato_1843_2024.pdf
+04/12/2024
+PDF salvo: uploads\atos_separados\Ato_1844_2024.pdf
+04/12/2024
+PDF salvo: uploads\atos_separados\Ato_1845_24.pdf
+04/12/2024
+PDF salvo: uploads\portarias_separadas\Portaria_520_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_032_2024.pdf
+<class 'str'>
+7 registros inseridos com sucesso!
+Processando arquivo: uploads/diarios_pernambuco\diarios_04-12-2024\6-Poder_LegislativoExtra.pdf
+04/12/2024
+PDF salvo: uploads\oficios_separados\Oficio_466_466.pdf
+<class 'str'>
+1 registros inseridos com sucesso!
+8 entidades encontradas para a data 04/12/2024.
+INFO:     179.251.80.15:50677 - "GET /diarios/processar?data=04/12/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 13/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241113/1-PoderExecutivo/PoderExecutivo(20241113).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241113/6-PoderLegislativo/PoderLegislativo(20241113).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_13-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_13-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_13-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_13-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_13-11-2024\1-Poder_Executivo.pdf
+13/11/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_13-11-2024\6-Poder_Legislativo.pdf
+13/11/2024
+PDF salvo: uploads\atos_separados\Ato_1795_24.pdf
+13/11/2024
+PDF salvo: uploads\atos_separados\Ato_1796_2024.pdf
+13/11/2024
+PDF salvo: uploads\atos_separados\Ato_1797_2024.pdf
+13/11/2024
+PDF salvo: uploads\oficios_separados\Oficio_105_2024.pdf
+<class 'str'>
+PDF salvo: uploads\portarias_separadas\Portaria_500_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_501_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_502_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_061_2024.pdf
+<class 'str'>
+8 registros inseridos com sucesso!
+8 entidades encontradas para a data 13/11/2024.
+INFO:     179.251.80.15:50692 - "GET /diarios/processar?data=13/11/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 13/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241113/1-PoderExecutivo/PoderExecutivo(20241113).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241113/6-PoderLegislativo/PoderLegislativo(20241113).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_13-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_13-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_13-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_13-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_13-11-2024\1-Poder_Executivo.pdf
+13/11/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_13-11-2024\6-Poder_Legislativo.pdf
+13/11/2024
+PDF salvo: uploads\atos_separados\Ato_1795_24.pdf
+13/11/2024
+PDF salvo: uploads\atos_separados\Ato_1796_2024.pdf
+13/11/2024
+PDF salvo: uploads\atos_separados\Ato_1797_2024.pdf
+13/11/2024
+PDF salvo: uploads\oficios_separados\Oficio_105_2024.pdf
+<class 'str'>
+PDF salvo: uploads\portarias_separadas\Portaria_500_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_501_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_502_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_061_2024.pdf
+<class 'str'>
+8 registros inseridos com sucesso!
+8 entidades encontradas para a data 13/11/2024.
+INFO:     179.251.80.15:50735 - "GET /diarios/processar?data=13/11/2024 HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 12/11/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241112/1-PoderExecutivo/PoderExecutivo(20241112).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241112/6-PoderLegislativo/PoderLegislativo(20241112).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_12-11-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_12-11-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_12-11-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_12-11-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_12-11-2024\1-Poder_Executivo.pdf
+12/11/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_12-11-2024\6-Poder_Legislativo.pdf
+12/11/2024
+PDF salvo: uploads\atos_separados\Ato_1786_2024.pdf
+12/11/2024
+PDF salvo: uploads\atos_separados\Ato_1787_24.pdf
+12/11/2024
+PDF salvo: uploads\atos_separados\Ato_1789_2024.pdf
+12/11/2024
+PDF salvo: uploads\atos_separados\Ato_1790_2024.pdf
+12/11/2024
+PDF salvo: uploads\atos_separados\Ato_1791_2024.pdf
+12/11/2024
+PDF salvo: uploads\atos_separados\Ato_1792_2024.pdf
+12/11/2024
+PDF salvo: uploads\atos_separados\Ato_1793_2024.pdf
+12/11/2024
+PDF salvo: uploads\atos_separados\Ato_1794_2024.pdf
+12/11/2024
+PDF salvo: uploads\oficios_separados\Oficio_0052_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_073_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_90_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_22_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_051_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_065_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_079_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_132_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_167_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_98_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_222_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_225_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_034_2024.pdf
+<class 'str'>
+PDF salvo: uploads\oficios_separados\Oficio_011901_2024.pdf
+<class 'str'>
+O PDF do ofício 011901/2024 já existe. Pulando...
+PDF salvo: uploads\portarias_separadas\Portaria_521_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_499_2024.pdf
+PDF salvo: uploads\oficios_separados\Oficio_468_2024.pdf
+<class 'str'>
+25 registros inseridos com sucesso!
+25 entidades encontradas para a data 12/11/2024.
+INFO:     179.251.80.15:50763 - "GET /diarios/processar?data=12/11/2024 HTTP/1.1" 200 OK
+INFO:     89.248.168.227:33004 - "GET / HTTP/1.1" 200 OK

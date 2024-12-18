@@ -13,7 +13,7 @@ def extrair_atos(page, page_num, atos_separados_folder, data=None):
 
     regex_ato = (
     r'(ATO Nº\.? (\d+)/(\d{2,4})\s+.*?O PRESIDENTE DA ASSEMBLEIA LEGISLATIVA DO ESTADO DE PERNAMBUCO,'
-    r'.*?RESOLVE:.*?Deputado ÁLVARO PORTO\s+Presidente)')
+    r'.*?RESOLVE:.*?Deputado\s+[A-Za-zÁÉÍÓÚÂÊÔÃÕÇáéíóúâêôãõç ]+\s+Presidente)')
 
     matches_atos = re.finditer(regex_ato, text, re.DOTALL)
     
@@ -68,7 +68,13 @@ def extrair_portarias(page, page_num, portarias_separadas_folder, data=None):
     dados_portarias = []
     text = page.get_text("text")
 
-    matches_portarias = re.finditer(r'(PORTARIA Nº\.? (\d+)/(\d+).*?(Superintendente Geral|Primeiro Secretário|Presidente))', text, re.DOTALL)
+    regex_portaria = (
+    r'(PORTARIA Nº\.? (\d+)/(\d{4})\s+.*?'
+    r'(O PRIMEIRO SECRETÁRIO|O SUPERINTENDENTE GERAL) DA ASSEMBLEIA LEGISLATIVA DO ESTADO DE PERNAMBUCO,'
+    r'.*?RESOLVE:.*?(?:(?:Deputado\s+[A-Za-zÁÉÍÓÚÂÊÔÃÕÇáéíóúâêôãõç ]+.*?Primeiro Secretário)|'
+    r'(?:[A-Za-zÁÉÍÓÚÂÊÔÃÕÇáéíóúâêôãõç ]+\s+Superintendente Geral)))')
+
+    matches_portarias = re.finditer(regex_portaria, text, re.DOTALL)
     
     for match in matches_portarias:
         portaria_text = match.group(0)
@@ -121,11 +127,22 @@ def extrair_oficios(page, page_num, oficios_separados_folder, data=None):
     dados_oficios = []
     text = page.get_text("text")
 
-    matches_oficios = re.finditer(
-        r'(OFÍCIO Nº (\d+)/(\d+)|Ofício nº (\d+)/(\d+)|Ofício GAB nº (\d+)/(\d+)|OFÍCIO (\d+)/(\d+)/GAB.*?Deputado Estadual)', 
-        text, 
-        re.DOTALL
+    regex_oficio = (
+    r'(OFÍCIO(?:\s+[A-Z]+\s+)?N[ºo]\.?\s*\d{1,6}/\d{4})'  # Captura "OFÍCIO Nº 14/2024", "OFÍCIO CCLJ Nº 033/2024", etc.
+    r'.*?'  # Permite qualquer texto entre o cabeçalho e o próximo elemento significativo
+    r'(?:Recife,\s+\d{1,2}\s+de\s+[a-z]+,\s+\d{4}\.)'  # Data no formato "Recife, 18 de novembro de 2024."
+    r'.*?'  # Texto intermediário
+    r'(?:Ao senhor|Exmo\. Sr\.|Sr\. Presidente|Excelentíssimo Senhor)'  # Destinatários variados
+    r'.*?'  # Texto intermediário
+    r'(?:Assunto:.*?)?'  # Linha de assunto opcional
+    r'(?:Senhor Presidente,|Cumprimentando-o cordialmente,|Em tempo que cumprimento Vossa Excelência,)'  # Saudações iniciais
+    r'.*?'  # Corpo do texto
+    r'(?:Respeitosamente,|Atenciosamente,)'  # Fecho padrão
+    r'\s*([\w\s]+?)\s*'  # Nome do deputado
+    r'(?:Deputado Estadual|PRESIDENTE CCLJ)'  # Cargo final
     )
+
+    matches_oficios = re.finditer(regex_oficio, text, re.DOTALL)
 
     for match in matches_oficios:
         oficio_text = match.group(0)
