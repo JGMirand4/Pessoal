@@ -2472,3 +2472,1179 @@ INFO:     179.251.80.15:49999 - "GET /diarios/links-pdfs?data=05/12/2024 HTTP/1.
 INFO:     179.251.80.15:50005 - "GET /diarios/links-pdfs?data=05/12/2024 HTTP/1.1" 500 Internal Server Error
 22 entidades encontradas para a data 05/12/2024.
 INFO:     179.251.80.15:50005 - "GET /diarios/links-pdfs?data=05/12/2024 HTTP/1.1" 500 Internal Server Error
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:57677 - "GET /diarios/consultar?data_consulta=05/12/2024&response_format=json HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:57678 - "GET /diarios/consultar?data_consulta=05/12/2024&response_format=json HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:57678 - "GET /diarios/consultar?data_consulta=05/12/2024&response_format=xml HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:57680 - "GET /diarios/links-pdfs?data=05/12/2024&response_format=XML HTTP/1.1" 200 OK
+INFO:     179.251.80.15:57684 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     179.251.80.15:57685 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     179.251.80.15:57686 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.251.80.15:57681 - "GET /diarios/links-pdfs?data=05/12/2024&response_format=XML HTTP/1.1" 200 OK
+8 entidades encontradas para a data 18/12/2024.
+INFO:     179.251.80.15:57687 - "GET /diarios/links-pdfs?data=18/12/2024&response_format=XML HTTP/1.1" 200 OK
+INFO:     179.251.80.15:57688 - "GET /diarios/abrir-pdf?entidade=Portaria&numero=560_2024 HTTP/1.1" 200 OK
+INFO:     179.251.80.15:65319 - "GET /diarios/abrir-pdf?entidade=portaria&numero=560_2024 HTTP/1.1" 200 OK
+INFO:     95.214.55.74:49610 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     146.190.119.189:49808 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     146.190.119.189:50518 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     146.190.119.189:36660 - "GET / HTTP/1.1" 200 OK
+INFO:     138.68.161.21:36754 - "GET / HTTP/1.1" 200 OK
+INFO:     138.68.161.21:36770 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     57.151.48.46:35590 - "GET / HTTP/1.1" 200 OK
+INFO:     95.214.55.74:58904 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     184.105.139.76:20651 - "GET / HTTP/1.1" 200 OK
+INFO:     184.105.139.100:60499 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     184.105.139.72:13163 - "GET / HTTP/1.1" 200 OK
+INFO:     189.40.103.180:6561 - "GET /diarios/abrir-pdf?entidade=portaria&numero=560_2024 HTTP/1.1" 200 OK
+INFO:     189.40.103.180:6581 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     189.40.103.180:6562 - "GET /diarios/abrir-pdf?entidade=portaria&numero=560_2024 HTTP/1.1" 200 OK
+INFO:     71.6.199.23:38318 - "GET / HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 16/10/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241016/1-PoderExecutivo/PoderExecutivo(20241016).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241016/6-PoderLegislativo/PoderLegislativo(20241016).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_16-10-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_16-10-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_16-10-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_16-10-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_16-10-2024\1-Poder_Executivo.pdf
+16/10/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_16-10-2024\6-Poder_Legislativo.pdf
+16/10/2024
+O PDF do ato 1657/24 já existe. Pulando...
+O PDF do ato 1699/24 já existe. Pulando...
+O PDF do ato 1700/24 já existe. Pulando...
+O PDF do ato 1701/24 já existe. Pulando...
+O PDF do ato 1702/24 já existe. Pulando...
+O PDF do ato 1703/2024 já existe. Pulando...
+O PDF do ato 1704/2024 já existe. Pulando...
+O PDF da portaria 506/2024 já existe. Pulando...
+O PDF da portaria 507/2024 já existe. Pulando...
+O PDF da portaria 508/2024 já existe. Pulando...
+O PDF da portaria 509/2024 já existe. Pulando...
+O PDF da portaria 481/2024 já existe. Pulando...
+12 entidades encontradas para a data 16/10/2024.
+INFO:     189.40.103.218:7960 - "GET /diarios/processar?data=16/10/2024&response_format=xml HTTP/1.1" 200 OK
+INFO:     71.6.199.23:51650 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     71.6.199.23:52172 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     71.6.199.23:52982 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+22 entidades encontradas para a data 05/12/2024.
+INFO:     189.40.103.218:7965 - "GET /diarios/consultar?data_consulta=05/12/2024&response_format=json HTTP/1.1" 200 OK
+INFO:     71.6.199.23:54036 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     95.214.55.74:47416 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+22 entidades encontradas para a data 05/12/2024.
+INFO:     189.40.103.218:7946 - "GET /diarios/consultar?data_consulta=05/12/2024&response_format=json HTTP/1.1" 200 OK
+INFO:     165.154.118.26:36780 - "GET / HTTP/1.1" 200 OK
+INFO:     165.154.182.53:59434 - "GET / HTTP/1.1" 200 OK
+INFO:     165.154.182.53:59772 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     165.154.182.53:60090 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     165.154.182.53:60088 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     139.99.9.160:43115 - "GET / HTTP/1.1" 200 OK
+INFO:     47.245.126.159:49064 - "GET / HTTP/1.1" 200 OK
+INFO:     47.245.126.159:49848 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     51.254.49.97:55255 - "GET / HTTP/1.1" 200 OK
+INFO:     95.214.55.74:47774 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.250.252.127:50328 - "GET /diarios/consultar?data_consulta=05/12/2024&response_format=json HTTP/1.1" 200 OK
+INFO:     185.226.197.69:53513 - "GET / HTTP/1.1" 200 OK
+INFO:     185.226.197.68:32877 - "GET /console HTTP/1.1" 404 Not Found
+INFO:     185.226.197.68:45023 - "GET / HTTP/1.1" 200 OK
+INFO:     185.226.197.69:55925 - "GET /zabbix/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     185.226.197.69:34693 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     185.226.197.70:47175 - "GET /owncloud/status.php HTTP/1.1" 404 Not Found
+INFO:     185.226.197.67:60449 - "GET /status.php HTTP/1.1" 404 Not Found
+INFO:     185.226.197.68:38705 - "GET / HTTP/1.1" 200 OK
+INFO:     185.226.197.69:41499 - "GET / HTTP/1.1" 200 OK
+INFO:     185.226.197.69:59737 - "GET /js/NewWindow_2_all.js HTTP/1.1" 404 Not Found
+INFO:     185.226.197.68:45495 - "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 Not Found
+INFO:     185.226.197.68:35313 - "GET /api/session/properties HTTP/1.1" 404 Not Found
+INFO:     185.226.197.70:38271 - "GET /aspera/faspex/ HTTP/1.1" 404 Not Found
+INFO:     185.226.197.70:43287 - "GET /internal_forms_authentication HTTP/1.1" 404 Not Found
+INFO:     185.226.197.69:59147 - "GET /sitecore/shell/sitecore.version.xml HTTP/1.1" 404 Not Found
+INFO:     185.226.197.70:59909 - "GET /cgi-bin/config.exp HTTP/1.1" 404 Not Found
+INFO:     185.226.197.67:49531 - "GET /showLogin.cc HTTP/1.1" 404 Not Found
+INFO:     185.226.197.68:40085 - "GET /license.txt HTTP/1.1" 404 Not Found
+INFO:     185.226.197.67:46821 - "GET /wp-json HTTP/1.1" 404 Not Found
+INFO:     185.226.197.67:57142 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     185.226.197.68:38763 - "GET /partymgr/control/main HTTP/1.1" 404 Not Found
+INFO:     185.226.197.67:37819 - "GET /WebInterface/ HTTP/1.1" 404 Not Found
+INFO:     185.226.197.68:41999 - "GET / HTTP/1.1" 200 OK
+INFO:     167.172.224.244:45690 - "GET / HTTP/1.1" 200 OK
+INFO:     167.172.224.244:44974 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.56:46984 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.146.56:46984 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.146.56:46984 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.146.56:46984 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.56:47072 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.56:33740 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     185.180.140.103:43563 - "GET / HTTP/1.1" 200 OK
+INFO:     179.250.252.127:60774 - "GET /diarios/abrir-pdf?entidade=portaria&numero=560_2024 HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     179.250.252.127:60794 - "GET /diarios/links-pdfs?data=05/12/2024&response_format=XML HTTP/1.1" 200 OK
+INFO:     45.156.130.4:49749 - "GET / HTTP/1.1" 200 OK
+INFO:     87.236.176.104:54793 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.40:36942 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     162.142.125.40:36942 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     162.142.125.40:36942 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     45.156.129.132:55605 - "GET / HTTP/1.1" 200 OK
+INFO:     95.214.55.74:47034 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:37862 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:35540 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     104.234.115.184:33804 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     104.234.115.184:58360 - "GET /manage/account/login HTTP/1.1" 404 Not Found
+INFO:     104.234.115.184:51374 - "GET /admin/index.html HTTP/1.1" 404 Not Found
+INFO:     104.234.115.184:59926 - "GET /index.html HTTP/1.1" 404 Not Found
+INFO:     104.234.115.184:52410 - "GET /%2BCSCOE%2B/logon.html HTTP/1.1" 404 Not Found
+INFO:     104.234.115.184:34776 - "GET /cgi-bin/login.cgi HTTP/1.1" 404 Not Found
+INFO:     104.234.115.184:49584 - "GET /logon.htm HTTP/1.1" 404 Not Found
+INFO:     104.234.115.184:48056 - "GET /doc/index.html HTTP/1.1" 404 Not Found
+INFO:     104.234.115.184:54582 - "GET /remote/login HTTP/1.1" 404 Not Found
+INFO:     104.234.115.184:58906 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.128.37:40125 - "GET / HTTP/1.1" 200 OK
+INFO:     95.214.55.74:60362 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     206.168.34.209:60640 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.209:60640 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.209:60640 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.209:60640 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.209:60644 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.209:36300 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     199.45.154.115:56310 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     199.45.154.115:56310 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     199.45.154.115:56310 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     199.45.154.115:56310 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.115:59306 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.115:59324 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     147.185.132.15:61712 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.220:40932 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.220:40932 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.220:40932 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.220:40932 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.220:36354 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.220:32984 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     95.214.55.74:41440 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     64.62.197.100:54725 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.98:36047 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.102:22125 - "GET / HTTP/1.1" 200 OK
+INFO:     45.79.181.104:29118 - "GET / HTTP/1.1" 200 OK
+INFO:     95.214.55.74:44820 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     174.138.27.178:32856 - "GET /ab2g HTTP/1.1" 404 Not Found
+INFO:     174.138.27.178:32902 - "GET /ab2h HTTP/1.1" 404 Not Found
+INFO:     174.138.27.178:41046 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.129.135:45069 - "GET / HTTP/1.1" 200 OK
+INFO:     198.235.24.72:58294 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.218:58988 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     162.142.125.218:58988 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     162.142.125.218:58988 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     162.142.125.218:58988 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.218:59006 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.218:57024 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     92.255.57.58:39182 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     4.151.38.0:34968 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:57112 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     95.214.55.74:33058 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     71.6.134.234:34160 - "GET / HTTP/1.1" 200 OK
+INFO:     71.6.134.234:52016 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     95.214.55.74:36054 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     167.94.138.181:35248 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.181:35248 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.181:35248 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.181:35248 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.181:57724 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.181:57728 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     13.83.42.172:51374 - "GET / HTTP/1.1" 200 OK
+INFO:     95.214.55.74:37136 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     164.52.24.185:34933 - "GET / HTTP/1.1" 200 OK
+INFO:     164.52.24.185:34933 - "GET / HTTP/1.1" 200 OK
+INFO:     164.52.24.185:34933 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     164.52.24.185:34933 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+Processando edição do Diário Oficial de 16/10/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241016/1-PoderExecutivo/PoderExecutivo(20241016).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241016/6-PoderLegislativo/PoderLegislativo(20241016).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_16-10-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_16-10-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_16-10-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_16-10-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_16-10-2024\1-Poder_Executivo.pdf
+16/10/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_16-10-2024\6-Poder_Legislativo.pdf
+16/10/2024
+O PDF do ato 1657/24 já existe. Pulando...
+O PDF do ato 1699/24 já existe. Pulando...
+O PDF do ato 1700/24 já existe. Pulando...
+O PDF do ato 1701/24 já existe. Pulando...
+O PDF do ato 1702/24 já existe. Pulando...
+O PDF do ato 1703/2024 já existe. Pulando...
+O PDF do ato 1704/2024 já existe. Pulando...
+O PDF da portaria 506/2024 já existe. Pulando...
+O PDF da portaria 507/2024 já existe. Pulando...
+O PDF da portaria 508/2024 já existe. Pulando...
+O PDF da portaria 509/2024 já existe. Pulando...
+O PDF da portaria 481/2024 já existe. Pulando...
+12 entidades encontradas para a data 16/10/2024.
+INFO:     189.40.103.122:58570 - "GET /diarios/processar?data=16/10/2024&response_format=xml HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 20/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241220/1-PoderExecutivo/PoderExecutivo(20241220).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241220/6-PoderLegislativo/PoderLegislativo(20241220).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_20-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_20-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_20-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_20-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_20-12-2024\1-Poder_Executivo.pdf
+20/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_20-12-2024\6-Poder_Legislativo.pdf
+20/12/2024
+PDF salvo: uploads\atos_separados\Ato_1886_2024.pdf
+20/12/2024
+PDF salvo: uploads\atos_separados\Ato_1887_2024.pdf
+20/12/2024
+PDF salvo: uploads\atos_separados\Ato_1888_2024.pdf
+20/12/2024
+PDF salvo: uploads\atos_separados\Ato_1889_2024.pdf
+20/12/2024
+PDF salvo: uploads\atos_separados\Ato_1890_2024.pdf
+20/12/2024
+PDF salvo: uploads\atos_separados\Ato_1891_2024.pdf
+20/12/2024
+PDF salvo: uploads\portarias_separadas\Portaria_567_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_568_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_569_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_570_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_571_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_542_2024.pdf
+PDF salvo: uploads\portarias_separadas\Portaria_543_2024.pdf
+13 registros inseridos com sucesso!
+13 entidades encontradas para a data 20/12/2024.
+INFO:     189.40.103.122:58589 - "GET /diarios/processar?data=20/12/2024&response_format=xml HTTP/1.1" 200 OK
+Processando edição do Diário Oficial de 20/12/2024...
+[{'caderno': '1-Poder Executivo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241220/1-PoderExecutivo/PoderExecutivo(20241220).pdf'}, {'caderno': '6-Poder Legislativo', 'url': 'https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241220/6-PoderLegislativo/PoderLegislativo(20241220).pdf'}]
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_20-12-2024\1-Poder_Executivo.pdf
+Arquivo baixado com sucesso: uploads/diarios_pernambuco\diarios_20-12-2024\6-Poder_Legislativo.pdf
+['uploads/diarios_pernambuco\\diarios_20-12-2024\\1-Poder_Executivo.pdf', 'uploads/diarios_pernambuco\\diarios_20-12-2024\\6-Poder_Legislativo.pdf']
+Processando arquivo: uploads/diarios_pernambuco\diarios_20-12-2024\1-Poder_Executivo.pdf
+20/12/2024
+Processando arquivo: uploads/diarios_pernambuco\diarios_20-12-2024\6-Poder_Legislativo.pdf
+20/12/2024
+O PDF do ato 1886/2024 já existe. Pulando...
+O PDF do ato 1887/2024 já existe. Pulando...
+O PDF do ato 1888/2024 já existe. Pulando...
+O PDF do ato 1889/2024 já existe. Pulando...
+O PDF do ato 1890/2024 já existe. Pulando...
+O PDF do ato 1891/2024 já existe. Pulando...
+O PDF da portaria 567/2024 já existe. Pulando...
+O PDF da portaria 568/2024 já existe. Pulando...
+O PDF da portaria 569/2024 já existe. Pulando...
+O PDF da portaria 570/2024 já existe. Pulando...
+O PDF da portaria 571/2024 já existe. Pulando...
+O PDF da portaria 542/2024 já existe. Pulando...
+O PDF da portaria 543/2024 já existe. Pulando...
+13 entidades encontradas para a data 20/12/2024.
+INFO:     189.40.103.122:58584 - "GET /diarios/processar?data=20/12/2024&response_format=xml HTTP/1.1" 200 OK
+22 entidades encontradas para a data 05/12/2024.
+INFO:     189.40.103.122:58579 - "GET /diarios/links-pdfs?data=05/12/2024&response_format=XML HTTP/1.1" 200 OK
+INFO:     189.40.103.122:58589 - "GET /diarios/abrir-pdf?entidade=Ato&numero=1855_2024Ato1856_2024 HTTP/1.1" 500 Internal Server Error
+INFO:     189.40.103.122:58560 - "GET /diarios/abrir-pdf?entidade=Ato&numero=1855_2024 HTTP/1.1" 200 OK
+INFO:     167.94.138.187:49024 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.187:49024 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.187:49024 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.187:49024 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.187:36334 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.187:36336 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     95.214.55.74:50302 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     162.142.125.221:42610 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     162.142.125.221:42610 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     162.142.125.221:42610 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     162.142.125.221:42610 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.221:38880 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.221:38954 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     135.148.10.174:56353 - "GET / HTTP/1.1" 200 OK
+INFO:     147.135.23.100:38651 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     147.185.132.16:60890 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.75:27751 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.78:20849 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.156.71:47881 - "GET / HTTP/1.1" 200 OK
+INFO:     187.60.251.222:31059 - "GET /diarios/abrir-pdf?entidade=Ato&numero=1855_2024 HTTP/1.1" 200 OK
+INFO:     187.60.251.222:31059 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     79.137.7.76:42983 - "GET / HTTP/1.1" 200 OK
+INFO:     54.38.100.159:52767 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:48956 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:35198 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     167.94.138.204:47088 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.204:47088 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.204:47088 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.204:47088 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.204:53448 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.204:53452 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     95.214.55.74:50582 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     188.166.6.247:56600 - "GET / HTTP/1.1" 200 OK
+INFO:     188.166.6.247:58532 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.127:41278 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.127:41278 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.127:41278 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.127:41278 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.127:41290 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.127:37880 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     87.236.176.20:43339 - "GET / HTTP/1.1" 200 OK
+INFO:     18.116.86.210:39056 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.100:51228 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.145.100:51228 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.145.100:51228 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.145.100:51228 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.100:47166 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.145.100:47238 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     47.84.202.190:48726 - "GET / HTTP/1.1" 200 OK
+INFO:     47.84.202.190:49448 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.210.31.54:63350 - "GET / HTTP/1.1" 200 OK
+INFO:     154.212.141.206:53292 - "GET / HTTP/1.1" 200 OK
+INFO:     172.168.41.225:48002 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:33600 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:35858 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     206.168.34.70:33070 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.70:33070 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.70:33070 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.70:33070 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.70:33100 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.70:60184 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     64.62.197.93:55221 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.99:21203 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.98:65421 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.125:49126 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.125:49126 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.125:49126 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.125:49126 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.125:52198 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.125:58640 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     167.94.146.57:43978 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.146.57:43978 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.146.57:43978 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.146.57:43978 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.57:43332 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.57:43336 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     148.153.45.234:55584 - "GET /5Eum HTTP/1.1" 404 Not Found
+INFO:     148.153.45.234:55598 - "GET /cjW9 HTTP/1.1" 404 Not Found
+INFO:     148.153.45.234:55612 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     148.153.45.234:47668 - "GET /jquery-3.3.1.slim.min.js HTTP/1.1" 404 Not Found
+INFO:     148.153.45.234:47676 - "GET /aab9 HTTP/1.1" 404 Not Found
+INFO:     148.153.45.234:47688 - "GET /jquery-3.3.2.slim.min.js HTTP/1.1" 404 Not Found
+22 entidades encontradas para a data 05/12/2024.
+INFO:     206.42.60.3:53319 - "GET /diarios/consultar?data_consulta=05/12/2024&response_format=xml HTTP/1.1" 200 OK
+Nenhuma ocorrência encontrada para a data fornecida.
+INFO:     206.42.60.3:53318 - "GET /diarios/consultar?data_consulta=23/12/2024&response_format=xml HTTP/1.1" 200 OK
+13 entidades encontradas para a data 20/12/2024.
+INFO:     206.42.60.3:53327 - "GET /diarios/consultar?data_consulta=20/12/2024&response_format=xml HTTP/1.1" 200 OK
+INFO:     198.235.24.235:60176 - "GET / HTTP/1.1" 200 OK
+INFO:     79.124.49.238:54136 - "GET /remote/login HTTP/1.1" 404 Not Found
+INFO:     80.82.77.33:58164 - "GET / HTTP/1.1" 200 OK
+INFO:     80.82.77.33:45570 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     80.82.77.33:46046 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     80.82.77.33:47802 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     80.82.77.33:49450 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     71.6.232.27:47380 - "GET / HTTP/1.1" 200 OK
+INFO:     95.214.55.74:40276 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     162.243.222.110:43606 - "GET /ab2g HTTP/1.1" 404 Not Found
+INFO:     162.243.222.110:43614 - "GET /ab2h HTTP/1.1" 404 Not Found
+INFO:     162.243.222.110:43736 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:48188 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:43892 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     135.148.63.215:58541 - "GET / HTTP/1.1" 200 OK
+INFO:     15.204.37.23:46835 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     51.254.49.107:49077 - "GET / HTTP/1.1" 200 OK
+INFO:     95.214.55.74:46860 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     64.62.197.130:64583 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.123:60793 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.134:16611 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.195:52532 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.195:52532 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.195:52532 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.195:52532 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.195:57936 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.195:53772 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     174.138.61.44:57328 - "GET / HTTP/1.1" 200 OK
+13 entidades encontradas para a data 20/12/2024.
+INFO:     206.42.60.3:60126 - "GET /diarios/consultar?data_consulta=20/12/2024&response_format=xml HTTP/1.1" 200 OK
+13 entidades encontradas para a data 20/12/2024.
+INFO:     206.42.60.3:54950 - "GET /diarios/consultar?data_consulta=20/12/2024&response_format=xml HTTP/1.1" 200 OK
+13 entidades encontradas para a data 20/12/2024.
+INFO:     206.42.60.3:62848 - "GET /diarios/consultar?data_consulta=20/12/2024&response_format=xml HTTP/1.1" 200 OK
+INFO:     206.42.60.3:62848 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+13 entidades encontradas para a data 20/12/2024.
+INFO:     206.42.60.3:62847 - "GET /diarios/consultar?data_consulta=20/12/2024&response_format=xml HTTP/1.1" 200 OK
+13 entidades encontradas para a data 20/12/2024.
+INFO:     206.42.60.3:62854 - "GET /diarios/consultar?data_consulta=20/12/2024&response_format=json HTTP/1.1" 200 OK
+INFO:     206.42.60.3:62888 - "POST /diarios/consultar?data_consulta=20/12/2024&response_format=json HTTP/1.1" 405 Method Not Allowed
+13 entidades encontradas para a data 20/12/2024.
+INFO:     206.42.60.3:60839 - "GET /diarios/consultar?data_consulta=20/12/2024&response_format=xml HTTP/1.1" 200 OK
+INFO:     95.214.55.74:51236 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     118.194.236.142:59668 - "GET / HTTP/1.1" 200 OK
+INFO:     118.194.236.142:33278 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     118.194.236.142:33292 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     118.194.236.142:33298 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     118.194.236.142:49540 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     64.227.139.145:40230 - "GET / HTTP/1.1" 200 OK
+INFO:     64.227.139.145:40242 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     104.248.81.26:51978 - "GET / HTTP/1.1" 200 OK
+INFO:     104.248.81.26:49884 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.205:33904 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.205:33904 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.205:33904 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.205:33904 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.205:48288 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.205:42326 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     95.214.55.74:50290 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     147.185.132.153:58466 - "GET / HTTP/1.1" 200 OK
+INFO:     98.80.4.65:59574 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.135:59830 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     199.45.154.135:59830 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     199.45.154.135:59830 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     199.45.154.135:59830 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.135:59876 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.135:55912 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     87.236.176.86:50745 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:60828 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     45.156.128.45:50921 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:59974 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     162.142.125.125:34250 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     162.142.125.125:34250 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     162.142.125.125:34250 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     162.142.125.125:34250 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.125:34284 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.125:37550 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     80.64.30.19:39063 - "GET /remote/login HTTP/1.1" 404 Not Found
+INFO:     80.64.30.19:40773 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     74.82.47.26:7253 - "GET / HTTP/1.1" 200 OK
+INFO:     74.82.47.46:38471 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     74.82.47.6:22895 - "GET / HTTP/1.1" 200 OK
+INFO:     51.159.101.214:48864 - "GET / HTTP/1.1" 200 OK
+INFO:     8.211.50.119:58403 - "GET /remote/login?lang=en HTTP/1.1" 404 Not Found
+INFO:     213.21.241.28:38034 - "GET / HTTP/1.1" 200 OK
+INFO:     198.235.24.162:57518 - "GET / HTTP/1.1" 200 OK
+INFO:     13.87.132.36:54820 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.49:34726 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.146.49:34726 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.146.49:34726 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.146.49:34726 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.49:33550 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.49:33590 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     167.94.138.188:43756 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.188:43756 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.188:43756 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.188:43756 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.188:45220 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:55098 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:40296 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     65.49.1.89:64587 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.85:24417 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.87:8855 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.199:50490 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.199:50490 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.199:50490 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.199:50490 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.199:56872 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.199:56878 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     206.168.34.95:55888 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.95:55888 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.95:55888 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.95:55888 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.95:38396 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.95:40866 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     162.142.125.213:50438 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     162.142.125.213:50438 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     162.142.125.213:50438 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     162.142.125.213:50438 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.213:57600 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.213:57626 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.55.232.179:55548 - "GET / HTTP/1.1" 200 OK
+INFO:     45.55.232.179:53768 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     165.232.185.7:43552 - "GET / HTTP/1.1" 200 OK
+INFO:     165.232.185.7:43566 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     147.185.132.180:59410 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.116:37612 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.116:37612 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.116:37612 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.116:37612 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.116:60366 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.116:60386 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     92.255.57.58:36670 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:51776 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     64.62.197.82:43443 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.77:57549 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.78:51257 - "GET / HTTP/1.1" 200 OK
+INFO:     45.130.145.164:50601 - "GET /remote/login HTTP/1.1" 404 Not Found
+INFO:     45.130.145.164:54375 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     47.108.138.164:39108 - "GET /stats HTTP/1.1" 404 Not Found
+INFO:     13.83.43.70:33464 - "GET / HTTP/1.1" 200 OK
+INFO:     118.193.36.63:49940 - "GET / HTTP/1.1" 200 OK
+INFO:     152.32.134.89:60202 - "GET / HTTP/1.1" 200 OK
+INFO:     152.32.134.89:60706 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     152.32.134.89:32860 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     152.32.134.89:32862 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     178.255.222.54:51834 - "GET / HTTP/1.1" 200 OK
+INFO:     205.210.31.240:64326 - "GET / HTTP/1.1" 200 OK
+INFO:     79.124.49.238:39938 - "GET /%2BCSCOE%2B/logon.html HTTP/1.1" 404 Not Found
+INFO:     45.156.128.47:43067 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.108:55116 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.145.108:55116 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.145.108:55116 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.145.108:55116 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.108:55202 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.145.108:47940 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     162.142.125.33:50546 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     162.142.125.33:50546 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     162.142.125.33:50546 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     162.142.125.33:50546 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.33:45256 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.33:45302 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     87.236.176.214:53359 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.129.130:55057 - "GET / HTTP/1.1" 200 OK
+INFO:     134.122.107.189:38686 - "GET /ab2g HTTP/1.1" 404 Not Found
+INFO:     134.122.107.189:38688 - "GET /ab2h HTTP/1.1" 404 Not Found
+INFO:     134.122.107.189:40774 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:42884 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:44026 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     74.82.47.15:55303 - "GET / HTTP/1.1" 200 OK
+INFO:     74.82.47.59:41283 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     74.82.47.31:16493 - "GET / HTTP/1.1" 200 OK
+INFO:     45.83.66.215:6280 - "GET / HTTP/1.1" 200 OK
+INFO:     45.83.65.47:6296 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     116.196.81.253:42582 - "GET /stats HTTP/1.1" 404 Not Found
+INFO:     198.235.24.84:63340 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.10.163:36519 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.10.160:34379 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     89.248.168.227:53736 - "GET / HTTP/1.1" 200 OK
+INFO:     48.217.211.235:40930 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:53064 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:56514 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     64.62.156.115:26963 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.110:55987 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.156.109:24763 - "GET / HTTP/1.1" 200 OK
+INFO:     47.245.126.159:43822 - "GET / HTTP/1.1" 200 OK
+INFO:     47.245.126.159:44378 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.74:43686 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.74:43686 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.74:43686 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.74:43686 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.74:36686 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.74:36710 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.156.128.127:38163 - "GET / HTTP/1.1" 200 OK
+INFO:     142.93.183.86:40258 - "GET / HTTP/1.1" 200 OK
+INFO:     142.93.183.86:40338 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     5.196.113.0:48529 - "GET / HTTP/1.1" 200 OK
+INFO:     5.135.238.157:52553 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.71.27.13:53080 - "GET / HTTP/1.1" 200 OK
+INFO:     167.71.27.13:37796 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     2.57.122.236:55792 - "GET / HTTP/1.1" 200 OK
+INFO:     2.57.122.236:55792 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     154.212.141.161:38062 - "GET / HTTP/1.1" 200 OK
+INFO:     198.235.24.171:57654 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:44604 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:56434 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     74.82.47.55:40061 - "GET / HTTP/1.1" 200 OK
+INFO:     74.82.47.23:32369 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     74.82.47.23:29219 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.53:42822 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.146.53:42822 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.146.53:42822 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.146.53:42822 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.53:53126 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.53:53138 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     46.101.123.180:58270 - "GET / HTTP/1.1" 200 OK
+INFO:     118.194.236.126:42092 - "GET / HTTP/1.1" 200 OK
+INFO:     118.194.236.126:42108 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     118.194.236.126:42118 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     118.194.236.126:55096 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     118.194.236.126:55210 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     71.6.232.28:50536 - "GET / HTTP/1.1" 200 OK
+INFO:     51.8.223.198:46108 - "GET / HTTP/1.1" 200 OK
+INFO:     87.236.176.246:43587 - "GET / HTTP/1.1" 200 OK
+INFO:     45.155.91.130:60896 - "GET / HTTP/1.1" 200 OK
+INFO:     157.230.107.157:38600 - "GET / HTTP/1.1" 200 OK
+INFO:     157.230.107.157:40120 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     47.102.98.55:38560 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     198.235.24.18:57538 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:35962 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:33460 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     52.228.152.151:56282 - "GET / HTTP/1.1" 200 OK
+INFO:     71.6.134.230:50304 - "GET / HTTP/1.1" 200 OK
+INFO:     71.6.134.230:39538 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.158:46600 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     199.45.154.158:46600 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     199.45.154.158:46600 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     199.45.154.158:46600 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.158:46626 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.158:46642 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     185.242.226.23:48246 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.128.130:50215 - "GET / HTTP/1.1" 200 OK
+INFO:     174.138.61.44:49328 - "GET / HTTP/1.1" 200 OK
+INFO:     147.185.132.33:62768 - "GET / HTTP/1.1" 200 OK
+INFO:     64.23.249.83:35116 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:44086 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:52028 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     165.154.119.19:37226 - "GET / HTTP/1.1" 200 OK
+INFO:     118.26.36.40:42578 - "GET / HTTP/1.1" 200 OK
+INFO:     118.26.36.40:42986 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     118.26.36.40:43328 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     118.26.36.40:43330 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     65.49.1.71:13363 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.66:2657 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.73:50247 - "GET / HTTP/1.1" 200 OK
+INFO:     94.232.41.51:57309 - "GET /%2BCSCOE%2B/logon.html HTTP/1.1" 404 Not Found
+INFO:     45.156.130.46:37139 - "GET / HTTP/1.1" 200 OK
+INFO:     189.40.103.24:52445 - "GET / HTTP/1.1" 200 OK
+INFO:     189.40.103.24:52421 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     189.40.103.24:52428 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     189.40.103.24:52428 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     4.255.99.170:43780 - "GET / HTTP/1.1" 200 OK
+INFO:     138.197.138.72:49040 - "GET / HTTP/1.1" 200 OK
+INFO:     138.197.138.72:49142 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     198.235.24.77:62008 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.46:6197 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.38:49731 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.156.49:30245 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.111:52366 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.145.111:52366 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.145.111:52366 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.145.111:52366 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.111:52422 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.145.111:46670 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     209.141.46.232:20918 - "GET / HTTP/1.1" 200 OK
+INFO:     209.141.46.232:11558 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     79.124.49.238:47924 - "GET /RDWeb/ HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:53512 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:35342 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:55074 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.143.200.95:37970 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:36680 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:54352 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:36770 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     147.185.132.210:60414 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.194:47176 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.194:47176 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.194:47176 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.194:47176 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.194:47194 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.194:49854 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     51.159.103.12:59794 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:55164 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     185.247.137.233:43495 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:40686 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:36074 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     64.62.197.229:32829 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.233:41401 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.240:47243 - "GET / HTTP/1.1" 200 OK
+INFO:     185.180.140.5:51415 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:57196 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:56934 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:41602 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:48598 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:46300 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     51.8.220.131:43868 - "GET / HTTP/1.1" 200 OK
+INFO:     189.40.103.32:24413 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:44776 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:55608 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     187.60.252.28:26045 - "GET / HTTP/1.1" 200 OK
+INFO:     187.60.252.28:24598 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:41410 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:36274 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:33406 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:46428 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.156.128.131:57371 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:42138 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     5.181.190.248:48018 - "GET / HTTP/1.1" 200 OK
+INFO:     198.235.24.105:58398 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:33754 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:44646 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:49502 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:35684 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     5.181.190.248:34704 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:48770 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:46110 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     5.181.190.248:54914 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.122:55274 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.122:55274 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.122:55274 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.122:55274 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.122:60862 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.122:60868 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.142.193.71:47892 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:41606 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:58306 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:47070 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     5.181.190.248:53954 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.53:24591 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.59:53569 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.156.56:15307 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:55022 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     5.181.190.248:39916 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.112:55326 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     162.142.125.112:55326 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     162.142.125.112:55326 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     162.142.125.112:55326 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.112:48762 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.112:48768 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.130.145.163:62691 - "GET /remote/login HTTP/1.1" 404 Not Found
+INFO:     147.185.132.21:62122 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:35042 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:44598 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:42124 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     5.181.190.248:33558 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.111:57220 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.145.111:57220 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.145.111:57220 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.145.111:57220 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.111:59008 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.145.111:59030 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     5.181.190.248:57910 - "GET / HTTP/1.1" 200 OK
+INFO:     147.182.155.79:44464 - "GET / HTTP/1.1" 200 OK
+INFO:     147.182.155.79:44600 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     89.248.168.227:53176 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.52:33708 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.146.52:33708 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.146.52:33708 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.146.52:33708 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.52:33718 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.52:33734 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.142.193.71:55540 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     172.169.207.2:57218 - "GET / HTTP/1.1" 200 OK
+INFO:     5.181.190.248:33132 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:43168 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:56618 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     5.181.190.248:33008 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:53418 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:39646 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     5.181.190.248:60938 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:51426 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     74.82.47.34:20875 - "GET / HTTP/1.1" 200 OK
+INFO:     5.181.190.248:49256 - "GET / HTTP/1.1" 200 OK
+INFO:     18.191.32.67:40992 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:37266 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     5.181.190.248:41726 - "GET / HTTP/1.1" 200 OK
+INFO:     71.6.134.234:57588 - "GET / HTTP/1.1" 200 OK
+INFO:     71.6.134.234:47186 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:55740 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     198.235.24.206:60720 - "GET / HTTP/1.1" 200 OK
+INFO:     5.181.190.248:41586 - "GET / HTTP/1.1" 200 OK
+INFO:     87.236.176.216:60083 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:54868 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:59012 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     5.181.190.248:38808 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:36076 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     5.181.190.248:55120 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.124:37218 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.124:37218 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.124:37218 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.124:37218 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.124:55978 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.124:56028 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     5.181.190.248:50338 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:59982 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:51208 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     165.154.163.199:46406 - "GET / HTTP/1.1" 200 OK
+INFO:     165.154.163.199:46414 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     165.154.163.199:50464 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     165.154.163.199:50476 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     165.154.163.199:50560 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     164.52.24.185:56135 - "GET / HTTP/1.1" 200 OK
+INFO:     164.52.24.185:56135 - "GET / HTTP/1.1" 200 OK
+INFO:     164.52.24.185:56135 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     164.52.24.185:56135 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     184.105.247.244:36011 - "GET / HTTP/1.1" 200 OK
+INFO:     5.181.190.248:60610 - "GET / HTTP/1.1" 200 OK
+INFO:     154.212.141.216:28552 - "GET / HTTP/1.1" 200 OK
+INFO:     172.169.207.7:38880 - "GET / HTTP/1.1" 200 OK
+INFO:     5.181.190.248:53162 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:40892 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.156.129.57:41717 - "GET / HTTP/1.1" 200 OK
+INFO:     148.153.45.234:40866 - "GET /GBfm HTTP/1.1" 404 Not Found
+INFO:     148.153.45.234:37902 - "GET /tU2b HTTP/1.1" 404 Not Found
+INFO:     148.153.45.234:37912 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     148.153.45.234:37922 - "GET /jquery-3.3.1.slim.min.js HTTP/1.1" 404 Not Found
+INFO:     148.153.45.234:37938 - "GET /aab9 HTTP/1.1" 404 Not Found
+INFO:     148.153.45.234:37946 - "GET /jquery-3.3.2.slim.min.js HTTP/1.1" 404 Not Found
+INFO:     71.6.232.28:46916 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:49216 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     89.248.168.227:46890 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:57318 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     65.49.1.83:61703 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.92:36063 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.89:19541 - "GET / HTTP/1.1" 200 OK
+INFO:     198.244.229.224:56702 - "GET /.git/HEAD HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56714 - "GET /?=PHPE9568F36-D428-11d2-A769-00AA001ACF42 HTTP/1.1" 200 OK
+INFO:     198.244.229.224:56722 - "GET /WUWY HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56708 - "GET / HTTP/1.1" 200 OK
+INFO:     198.244.229.224:56724 - "GET /main.cfm HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56726 - "GET /?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000 HTTP/1.1" 200 OK
+INFO:     198.244.229.224:56736 - "GET /Portal0000.htm HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56744 - "GET /home.jhtml HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56754 - "SSTP_DUPLEX_POST /sra_%7BBA195980-CD49-458b-9E23-C84EE0ADCD75%7D/ HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56756 - "GET /rest/applinks/1.0/manifest HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56758 - "GET /__Additional HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56768 - "GET /menu.shtml HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56784 - "GET /webui HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56794 - "GET /confluence/rest/applinks/1.0/manifest HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56816 - "GET /user HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56802 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56824 - "GET / HTTP/1.1" 200 OK
+INFO:     198.244.229.224:56838 - "POST /sdk HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56846 - "GET /user HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:56852 - "GET /inicio.cgi HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45396 - "GET /human.aspx?arg12=infotech HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45402 - "GET /inicio.cfm HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45408 - "GET /nmaplowercheck1736228103 HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45414 - "GET /human.aspx?arg12=infotech HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45430 - "GET /home.cgi HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45446 - "GET /HNAP1 HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45452 - "GET /server-status HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45460 - "GET /dana-cached/hc/HostCheckerInstaller.osx HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45476 - "GET /admin.php HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45486 - "GET /Portal/Portal.mwsl HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45488 - "GET /dana-na/nc/nc_gina_ver.txt HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45502 - "GET /home.jsp HTTP/1.1" 404 Not Found
+INFO:     198.244.229.224:45588 - "GET / HTTP/1.0" 200 OK
+INFO:     198.244.229.224:45664 - "GET / HTTP/1.1" 200 OK
+INFO:     198.235.24.248:59896 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:49260 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:39794 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:45054 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:56794 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     167.94.145.96:50768 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.145.96:50768 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.145.96:50768 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.145.96:50768 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.96:50780 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.145.96:50782 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     178.32.170.21:51289 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:35998 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     47.237.115.242:42686 - "GET / HTTP/1.1" 200 OK
+INFO:     106.75.47.12:59412 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:51330 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:53300 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:50900 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:50900 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:50900 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:50900 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.58:51000 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.58:51030 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     123.160.223.73:61296 - "GET / HTTP/1.1" 200 OK
+INFO:     123.160.223.74:63255 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     123.160.223.75:2439 - "GET / HTTP/1.1" 200 OK
+INFO:     123.160.223.75:2767 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     198.235.24.201:63826 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:46642 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     47.236.8.61:39390 - "GET / HTTP/1.1" 200 OK
+INFO:     47.236.8.61:40438 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     47.236.124.196:54684 - "GET / HTTP/1.1" 200 OK
+INFO:     47.236.124.196:55044 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     185.180.140.4:51059 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.129.131:39491 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:49534 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:37812 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:37814 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.156.129.133:35081 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:59854 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     104.209.34.218:60002 - "GET / HTTP/1.1" 200 OK
+INFO:     180.149.125.165:61565 - "GET / HTTP/1.1" 200 OK
+INFO:     174.138.61.44:51180 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:52682 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:42586 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:53788 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     65.49.20.81:4141 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.20.101:6695 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.20.89:11667 - "GET / HTTP/1.1" 200 OK
+INFO:     212.23.215.221:57435 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:44122 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     185.247.137.136:47687 - "GET / HTTP/1.1" 200 OK
+INFO:     185.7.214.81:44526 - "GET /remote/login?lang=en HTTP/1.1" 404 Not Found
+INFO:     185.7.214.81:55672 - "GET /remote/login?lang=en HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:53652 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:55460 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     205.210.31.46:63224 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:47794 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     167.94.138.39:44656 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.39:44656 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.39:44656 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.39:44656 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.39:45396 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.39:45408 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.142.193.71:45280 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:41094 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.91.201.184:33978 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:38594 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     65.49.20.94:20603 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.20.66:17311 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.20.66:35151 - "GET / HTTP/1.1" 200 OK
+INFO:     165.154.41.115:38278 - "GET / HTTP/1.1" 200 OK
+INFO:     118.194.250.22:50892 - "GET / HTTP/1.1" 200 OK
+INFO:     118.194.250.22:51378 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     118.194.250.22:51846 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     118.194.250.22:51848 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     194.165.17.21:58629 - "GET /remote/login?lang=en HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:40038 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:50106 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     165.227.30.35:39368 - "GET / HTTP/1.1" 200 OK
+INFO:     161.35.54.121:47242 - "GET / HTTP/1.1" 200 OK
+INFO:     50.116.63.67:46130 - "GET / HTTP/1.1" 200 OK
+INFO:     139.177.202.149:40446 - "GET /auth1.html HTTP/1.1" 404 Not Found
+INFO:     139.177.202.149:40414 - "GET / HTTP/1.1" 200 OK
+INFO:     139.177.202.149:40430 - "GET /auth.html HTTP/1.1" 404 Not Found
+INFO:     139.177.202.149:40462 - "GET /api/sonicos/auth HTTP/1.1" 404 Not Found
+INFO:     139.177.202.149:40460 - "GET /sslvpnLogin.html HTTP/1.1" 404 Not Found
+INFO:     139.177.202.149:40478 - "GET /api/sonicos/tfa HTTP/1.1" 404 Not Found
+INFO:     206.189.22.36:56392 - "GET / HTTP/1.1" 200 OK
+INFO:     206.189.22.36:56488 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     122.233.178.168:20866 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:37750 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     200.73.140.96:55684 - "GET /remote/login?lang=en HTTP/1.1" 404 Not Found
+INFO:     198.235.24.79:62574 - "GET / HTTP/1.1" 200 OK
+INFO:     172.206.142.216:38816 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.41:50320 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.41:50320 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.41:50320 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.41:50320 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.41:38516 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.41:48268 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.156.130.46:45455 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.122:52618 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.122:52618 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.122:52618 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.122:52618 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.122:35868 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.122:35870 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.156.130.45:44015 - "GET / HTTP/1.1" 200 OK
+INFO:     205.210.31.84:63748 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:38448 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:56310 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     64.62.197.73:53589 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.73:19429 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.71:38731 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:36080 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     64.227.32.48:44576 - "GET /ab2g HTTP/1.1" 404 Not Found
+INFO:     64.227.32.48:47594 - "GET /ab2h HTTP/1.1" 404 Not Found
+INFO:     64.227.32.48:47722 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:51006 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:47106 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:52700 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:51544 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     51.254.0.11:46393 - "GET / HTTP/1.1" 200 OK
+INFO:     217.182.186.35:43551 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     135.148.63.219:55503 - "GET / HTTP/1.1" 200 OK
+INFO:     51.81.144.39:51169 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:41492 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:46164 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     51.254.49.96:46793 - "GET / HTTP/1.1" 200 OK
+INFO:     198.235.24.86:62854 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:48884 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:42164 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     65.49.1.61:35567 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.62:53925 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.63:9285 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.128.131:59959 - "GET / HTTP/1.1" 200 OK
+INFO:     62.210.90.176:33532 - "GET / HTTP/1.1" 200 OK
+INFO:     87.236.176.127:54065 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.103:58060 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.145.103:58060 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.145.103:58060 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.145.103:58060 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.145.103:58076 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.145.103:58080 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     172.169.3.142:33950 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.53:45490 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.53:45490 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.53:45490 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.53:45490 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.53:48050 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.53:48054 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     44.220.185.78:36168 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:38700 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:45946 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     199.45.154.125:40228 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     199.45.154.125:40228 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     199.45.154.125:40228 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     199.45.154.125:40228 - "GET / HTTP/1.1" 200 OK
+INFO:     199.45.154.125:33456 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.154.125:33472 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.142.193.71:37458 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     185.180.140.105:50411 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.8.96:50323 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.25.115:52973 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     213.32.32.89:60283 - "GET / HTTP/1.1" 200 OK
+INFO:     137.74.239.150:58079 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:33192 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:50096 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:37920 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:33764 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     24.199.117.48:46534 - "GET / HTTP/1.1" 200 OK
+INFO:     24.199.117.48:46542 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:43414 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     198.235.24.216:57456 - "GET / HTTP/1.1" 200 OK
+INFO:     185.42.12.110:56946 - "GET /remote/login HTTP/1.1" 404 Not Found
+INFO:     185.42.12.110:57389 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     64.62.156.20:14389 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.14:7043 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.156.19:60989 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:57320 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:54632 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:38708 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     80.64.30.87:36810 - "GET /remote/login HTTP/1.1" 404 Not Found
+INFO:     80.64.30.87:20941 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     167.94.146.57:33794 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.146.57:33794 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.146.57:33794 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.146.57:33794 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.57:33822 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.57:33858 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     172.169.191.209:34082 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:43226 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:36380 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     65.49.1.89:21327 - "GET / HTTP/1.1" 200 OK
+INFO:     65.49.1.82:49997 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.86:10323 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:54848 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     185.73.125.84:62778 - "GET /remote/login HTTP/1.1" 404 Not Found
+INFO:     185.73.125.84:63027 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     198.235.24.44:59596 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:34440 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     92.255.85.172:10682 - "GET /RDWeb/Pages/ HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:48418 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:47978 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:57658 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     71.6.232.26:53058 - "GET / HTTP/1.1" 200 OK
+INFO:     198.235.24.72:60592 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.85.106:22110 - "GET /remote/login?lang=en HTTP/1.1" 404 Not Found
+INFO:     92.255.85.106:27263 - "GET /remote/login?lang=en HTTP/1.1" 404 Not Found
+INFO:     167.94.138.112:42916 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.112:42916 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.112:42916 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.112:42916 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.112:34090 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.112:34130 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     154.212.141.176:59328 - "GET / HTTP/1.1" 200 OK
+INFO:     87.236.176.82:44073 - "GET / HTTP/1.1" 200 OK
+INFO:     154.212.141.234:36274 - "GET / HTTP/1.1" 200 OK
+INFO:     154.212.141.234:36652 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     66.240.236.119:39236 - "GET / HTTP/1.1" 200 OK
+INFO:     66.240.236.119:47522 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     66.240.236.119:48158 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     66.240.236.119:48760 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     66.240.236.119:50094 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     154.213.187.239:53146 - "GET /manage/account/login?redirect=%2F HTTP/1.1" 404 Not Found
+INFO:     51.8.222.158:50240 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.129.113:46739 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.129.112:41779 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.129.112:42563 - "GET /api/session/properties HTTP/1.1" 404 Not Found
+INFO:     45.156.129.110:50017 - "GET /js/NewWindow_2_all.js HTTP/1.1" 404 Not Found
+INFO:     45.156.129.111:44523 - "GET /sitecore/shell/sitecore.version.xml HTTP/1.1" 404 Not Found
+INFO:     45.156.129.110:48487 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.129.112:41321 - "GET /cgi-bin/config.exp HTTP/1.1" 404 Not Found
+INFO:     45.156.129.112:39747 - "GET /zabbix/favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.156.129.111:45149 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.156.129.110:33067 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.129.111:42901 - "GET /internal_forms_authentication HTTP/1.1" 404 Not Found
+INFO:     45.156.129.111:39349 - "GET /license.txt HTTP/1.1" 404 Not Found
+INFO:     45.156.129.113:52771 - "GET /wp-json HTTP/1.1" 404 Not Found
+INFO:     45.156.129.110:60451 - "GET /partymgr/control/main HTTP/1.1" 404 Not Found
+INFO:     45.156.129.110:53577 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.129.111:54151 - "GET /aspera/faspex/ HTTP/1.1" 404 Not Found
+INFO:     45.156.129.113:45037 - "GET /console HTTP/1.1" 404 Not Found
+INFO:     45.156.129.110:46843 - "GET /WebInterface/ HTTP/1.1" 404 Not Found
+INFO:     45.156.129.111:54373 - "GET /showLogin.cc HTTP/1.1" 404 Not Found
+INFO:     45.156.129.111:57545 - "GET /owncloud/status.php HTTP/1.1" 404 Not Found
+INFO:     45.156.129.113:45811 - "GET /status.php HTTP/1.1" 404 Not Found
+INFO:     45.156.129.110:57516 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.156.129.111:58863 - "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 Not Found
+INFO:     138.197.173.185:33494 - "GET / HTTP/1.1" 200 OK
+INFO:     138.197.173.185:52088 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     44.220.188.207:39030 - "GET / HTTP/1.1" 200 OK
+INFO:     87.120.115.149:62000 - "GET /remote/login?lang= HTTP/1.1" 404 Not Found
+INFO:     167.71.84.230:51816 - "GET /ab2g HTTP/1.1" 404 Not Found
+INFO:     167.71.84.230:51826 - "GET /ab2h HTTP/1.1" 404 Not Found
+INFO:     167.71.84.230:51916 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.34:8275 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.26:4923 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.156.26:9735 - "GET / HTTP/1.1" 200 OK
+INFO:     92.255.57.58:60712 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:51100 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     198.235.24.43:57404 - "GET / HTTP/1.1" 200 OK
+INFO:     45.156.128.129:52841 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.49:35874 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.146.49:35874 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.146.49:35874 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.146.49:35874 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.146.49:35898 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.49:35922 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     134.209.152.69:42562 - "GET / HTTP/1.1" 200 OK
+INFO:     134.209.152.69:54968 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     198.235.24.192:64362 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:53502 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:45462 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     203.55.131.3:52672 - "GET / HTTP/1.1" 200 OK
+INFO:     203.55.131.3:34102 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     165.154.11.121:56364 - "GET / HTTP/1.1" 200 OK
+INFO:     165.154.11.121:46124 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     165.154.11.121:46140 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     165.154.11.121:46156 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     165.154.11.121:46272 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     216.218.206.115:29533 - "GET / HTTP/1.1" 200 OK
+INFO:     216.218.206.95:32801 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.156.129.57:53819 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:51052 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:41834 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:60156 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     87.120.115.149:53573 - "GET /remote/login?lang= HTTP/1.1" 404 Not Found
+INFO:     185.170.144.190:59397 - "GET /remote/login?lang=en HTTP/1.1" 404 Not Found
+INFO:     185.170.144.190:1766 - "GET /remote/login?lang=en HTTP/1.1" 404 Not Found
+INFO:     185.170.144.190:2086 - "GET / HTTP/1.1" 200 OK
+INFO:     185.170.144.190:3557 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:55484 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:48516 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     92.255.57.58:44540 - "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 OK
+INFO:     92.255.57.58:35292 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     148.113.193.79:57432 - "GET / HTTP/1.1" 200 OK
+INFO:     89.248.168.227:58450 - "GET / HTTP/1.1" 200 OK
+INFO:     4.156.20.204:48274 - "GET / HTTP/1.1" 200 OK
+INFO:     147.185.132.177:57562 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:32884 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:59578 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     174.138.61.44:50648 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.86:44106 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     206.168.34.86:44106 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     206.168.34.86:44106 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     206.168.34.86:44106 - "GET / HTTP/1.1" 200 OK
+INFO:     206.168.34.86:52042 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     206.168.34.86:52064 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.142.193.71:45442 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     138.68.162.29:41398 - "GET / HTTP/1.1" 200 OK
+INFO:     138.68.162.29:43150 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:44996 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     64.62.197.184:60569 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.197.188:8339 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.192:52829 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:45518 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:56906 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:56534 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:44890 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     167.94.138.204:52610 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     167.94.138.204:52610 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     167.94.138.204:52610 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     167.94.138.204:52610 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.204:37864 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.204:54320 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     92.255.57.58:50894 - "GET /actuator/gateway/routes HTTP/1.1" 404 Not Found
+INFO:     162.142.125.34:43690 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     162.142.125.34:43690 - "GET /apis/rbac.authorization.k8s.io HTTP/1.1" 404 Not Found
+INFO:     162.142.125.34:43690 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     162.142.125.34:43690 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.34:43764 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     162.142.125.34:43768 - "PRI %2A HTTP/2.0" 404 Not Found
+INFO:     45.142.193.71:36040 - "GET /appGet.cgi?hook=get_cfg_clientlist() HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:39670 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     172.206.139.14:38260 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:40032 - "GET /SETTINGS.CFG HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:43142 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     87.236.176.236:36149 - "GET / HTTP/1.1" 200 OK
+INFO:     45.142.193.71:58630 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     205.210.31.224:57836 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.73:29097 - "GET / HTTP/1.1" 200 OK
+INFO:     64.62.156.69:57003 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.156.71:4541 - "GET / HTTP/1.1" 200 OK
+INFO:     47.236.161.236:44940 - "GET / HTTP/1.1" 200 OK
+INFO:     47.236.161.236:45612 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:33368 - "POST /login.cgi HTTP/1.1" 404 Not Found
+INFO:     206.42.60.3:57692 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.142.193.71:43904 - "POST /login.cgi HTTP/1.1" 404 Not Found
